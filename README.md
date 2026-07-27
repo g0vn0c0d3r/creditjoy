@@ -1,4 +1,4 @@
-# Market Structure Analysis
+# creditjoy
 
 Рабочий проект для анализа структуры финансовых маркетплейсов и подготовки семантики под будущий сайт.
 
@@ -26,7 +26,7 @@
 ## Структура проекта
 
 ```text
-market-structure-analysis/
+creditjoy/
   README.md
 
   docs/
