@@ -1,0 +1,43 @@
+level,type,slug,page_intent,priority,geo_ready,notes
+1,hub,/zaimy/,Все микрозаймы,high,yes,Главный коммерческий хаб вертикали
+2,modifier,/zaimy/online/,Займы онлайн,high,yes,Базовый массовый интент
+2,modifier,/zaimy/na-kartu/,Займы на карту,high,yes,Один из ключевых денежных интентов
+2,modifier,/zaimy/bez-otkaza/,Займы без отказа,high,yes,Нужно аккуратно формулировать обещания
+2,modifier,/zaimy/bez-procentov/,Займы без процентов,high,yes,Только если есть подтвержденные офферы 0%
+2,modifier,/zaimy/s-plohoy-kreditnoy-istoriey/,Займы с плохой кредитной историей,high,yes,Важный интент для МФО
+2,modifier,/zaimy/srochno/,Срочные займы,high,yes,Сильный конверсионный интент
+2,modifier,/zaimy/do-zarplaty/,Займы до зарплаты,medium,yes,Классический короткий срок
+2,modifier,/zaimy/pod-zalog-pts/,Займы под залог ПТС,medium,yes,Отдельная выдача и условия
+2,modifier,/zaimy/dolgosrochnye/,Долгосрочные займы,medium,yes,Отличается сроком и суммой
+2,modifier,/zaimy/kruglosutochno/,Круглосуточные займы,medium,yes,Проверять фактическую доступность выдачи
+2,modifier,/zaimy/po-pasportu/,Займы по паспорту,medium,yes,Типовой интент документов
+2,modifier,/zaimy/bez-spravok/,Займы без справок,medium,yes,Может пересекаться с по паспорту
+2,modifier,/zaimy/bez-proverok/,Займы без проверок,medium,yes,Требует осторожности и юридической проверки формулировок
+3,combined,/zaimy/na-kartu-bez-otkaza/,Займ на карту без отказа,high,yes,Высокий спрос но высокий риск обещаний
+3,combined,/zaimy/na-kartu-bez-procentov/,Займ на карту без процентов,high,yes,Нужны реальные 0% офферы
+3,combined,/zaimy/na-kartu-s-plohoy-kreditnoy-istoriey/,Займ на карту с плохой КИ,high,yes,Отдельный сильный интент
+3,combined,/zaimy/na-kartu-kruglosutochno/,Займ на карту круглосуточно,medium,yes,Проверять выдачу 24/7
+3,combined,/zaimy/pervyy-bez-procentov-na-kartu/,Первый займ без процентов на карту,high,yes,Сильная коммерческая связка
+3,combined,/zaimy/bez-proverok-na-kartu/,Займ без проверок на карту,medium,yes,Нужна мягкая юридическая формулировка
+3,combined,/zaimy/novye-na-kartu/,Новые займы на карту,medium,yes,Хорошо для обновляемой витрины
+4,amount,/zaimy/1000-rubley/,Займ 1000 рублей,medium,yes,Запускать если есть спрос и уникальная выдача
+4,amount,/zaimy/5000-rubley/,Займ 5000 рублей,medium,yes,Популярная небольшая сумма
+4,amount,/zaimy/10000-rubley/,Займ 10000 рублей,medium,yes,Популярная сумма
+4,amount,/zaimy/30000-rubley/,Займ 30000 рублей,medium,yes,Частый верх короткого займа
+4,amount,/zaimy/50000-rubley/,Займ 50000 рублей,medium,yes,Нужно отличать от долгосрочных
+4,amount,/zaimy/100000-rubley/,Займ 100000 рублей,medium,yes,Часто другой тип продукта
+4,term,/zaimy/na-7-dney/,Займ на 7 дней,low,maybe,Запускать после проверки спроса
+4,term,/zaimy/na-14-dney/,Займ на 14 дней,low,maybe,Запускать после проверки спроса
+4,term,/zaimy/na-mesyats/,Займ на месяц,medium,yes,Сильный сроковой интент
+4,term,/zaimy/na-god/,Займ на год,medium,yes,Долгосрочный сегмент
+5,audience,/zaimy/s-18-let/,Займы с 18 лет,medium,yes,Нужно проверять требования МФО
+5,audience,/zaimy/studentam/,Займы студентам,medium,yes,Аудиторный интент
+5,audience,/zaimy/pensioneram/,Займы пенсионерам,medium,yes,Аудиторный интент
+5,audience,/zaimy/bezrabotnym/,Займы безработным,medium,yes,Осторожные формулировки
+5,audience,/zaimy/s-prosrochkami/,Займы с просрочками,medium,yes,Отдельный риск-интент
+5,audience,/zaimy/bez-kreditnoy-istorii/,Займы без кредитной истории,medium,yes,Отдельный риск-интент
+6,support,/mfo/,Каталог МФО,high,yes,База для доверия и внутренней перелинковки
+6,support,/mfo/rating/,Рейтинг МФО,high,yes,Доверие и навигация
+6,support,/reviews/mfo/,Отзывы о МФО,high,yes,Доверие и UGC в будущем
+6,support,/calculators/zaim/,Калькулятор займа,medium,no,Поддержка коммерческих страниц
+6,support,/guides/kak-vybrat-zaym/,Как выбрать займ,medium,no,Информационный слой и E-E-A-T
