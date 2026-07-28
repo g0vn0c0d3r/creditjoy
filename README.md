@@ -33,6 +33,7 @@ creditjoy/
     competitor-structure.md
     strategy.md
     keyword-processing.md
+    keyword-review.md
 
   data/
     raw/
@@ -52,6 +53,7 @@ creditjoy/
 - `docs/competitor-structure.md` - как устроена глубина у конкурентов.
 - `docs/strategy.md` - наша стратегия: структура сайта, структура продукта `займы`, гео, модификаторы, антидубли.
 - `docs/keyword-processing.md` - как собирается единый файл запросов.
+- `docs/keyword-review.md` - рабочая логика ручного разбора запросов без финальных slug-кластеров.
 - `data/raw/wordcraft/` - исходные Excel-файлы Wordcraft.
 - `data/keywords.csv` - главный рабочий файл со всеми словами.
 - `scripts/build-keywords.mjs` - скрипт, который пересобирает `data/keywords.csv` из исходных Excel-файлов.
