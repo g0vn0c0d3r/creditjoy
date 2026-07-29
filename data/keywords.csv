@@ -8,10 +8,10 @@ query,clicks,demand,sources,decision,notes
 займы онлайн на карту,104416,146474,zaim,commercial,"online; card"
 онлайн займ,98947,117052,zaim,commercial,online
 онлайн займы,88935,103462,zaim,commercial,online
-займ на карту без отказа,66414,86097,zaim,commercial,"card; no refusal"
+займ на карту без отказа,66414,86097,zaim,later,not MVP clean: no-refusal promise
 займ на карту t_me_top_zaim24,57894,28623,zaim,spam,affiliate/spam tail
 займ онлайн на карту,55813,70412,zaim,commercial,"online; card"
-займ займом на карту,54230,59742,zaim,commercial,card
+займ займом на карту,54230,59742,zaim,later,not MVP clean: unclear wording
 займы на карту,52786,71572,zaim,commercial,card
 лайм займ,45776,105612,zaim,brand,brand/lk or MFO name
 займ на карту онлайн,45415,54245,zaim,commercial,"online; card"
@@ -22,18 +22,18 @@ query,clicks,demand,sources,decision,notes
 займ t_me_top_zaim24,36594,17657,zaim,spam,affiliate/spam tail
 займ экспресс,35801,38810,zaim,commercial,urgent
 онлайн займ на карту,35764,39965,zaim,commercial,"online; card"
-займы без отказа,30053,64776,zaim,commercial,no refusal
-займ без отказа,28865,50000,zaim,commercial,no refusal
+займы без отказа,30053,64776,zaim,later,not MVP clean: no-refusal promise
+займ без отказа,28865,50000,zaim,later,not MVP clean: no-refusal promise
 займы онлайн t_me_top_zaim24,28841,13901,zaim,spam,affiliate/spam tail
 займ без процентов,27803,51912,zaim,commercial,zero percent
 взять займ на карту,27011,32405,zaim,commercial,"action; card"
-займ на карте онлайн,26621,29065,zaim,commercial,"online; card"
+займ на карте онлайн,26621,29065,zaim,later,not MVP clean: unclear wording
 юкки займ,25806,54458,zaim,brand,brand/lk or MFO name
-займ онлайн на карте,25515,27446,zaim,commercial,"online; card"
-займы онлайн на карту без отказа,25275,39268,zaim,commercial,"online; card; no refusal"
+займ онлайн на карте,25515,27446,zaim,later,not MVP clean: unclear wording
+займы онлайн на карту без отказа,25275,39268,zaim,later,not MVP clean: no-refusal promise
 займ на карту срочно,24171,29607,zaim,commercial,"card; urgent"
-займы с плохой кредитной историей без отказа,23621,23644,zaim,commercial,"no refusal; bad credit"
-займ с плохой кредитной историей без отказа,23563,23185,zaim,commercial,"no refusal; bad credit"
+займы с плохой кредитной историей без отказа,23621,23644,zaim,later,not MVP clean: no-refusal promise
+займ с плохой кредитной историей без отказа,23563,23185,zaim,later,not MVP clean: no-refusal promise
 микрозайм без процентов,23344,42238,"microzaim;zaim",commercial,zero percent
 займ на карту вам одобрено,22346,22402,zaim,spam,affiliate/spam tail
 турбозайм личный кабинет,21818,52726,zaim,brand,brand/lk or MFO name
@@ -42,40 +42,40 @@ query,clicks,demand,sources,decision,notes
 веб займ,19933,91316,zaim,brand,brand/lk or MFO name
 займ до зарплаты,19879,21911,zaim,commercial,salary
 микрозайм на карту,19608,18767,microzaim,commercial,card
-займ без отказа с плохой кредитной историей,19600,18082,zaim,commercial,"no refusal; bad credit"
-займы без отказа с плохой кредитной историей,19534,18112,zaim,commercial,"no refusal; bad credit"
-взять займ на карту без отказа,19002,25595,zaim,commercial,"action; card; no refusal"
+займ без отказа с плохой кредитной историей,19600,18082,zaim,later,not MVP clean: no-refusal promise
+займы без отказа с плохой кредитной историей,19534,18112,zaim,later,not MVP clean: no-refusal promise
+взять займ на карту без отказа,19002,25595,zaim,later,not MVP clean: no-refusal promise
 до зарплаты займ,18785,23662,zaim,commercial,salary
 микрозайм онлайн,18349,21760,microzaim,commercial,online
 займ под залог птс,18183,24888,zaim,commercial,"pledge; pts/auto alias"
 займ с плохой кредитной историей,17965,17424,zaim,commercial,bad credit
-займы на карту без отказа,17730,22815,zaim,commercial,"card; no refusal"
+займы на карту без отказа,17730,22815,zaim,later,not MVP clean: no-refusal promise
 все займы,17448,25797,zaim,commercial,comparison
 микрозайм t_me_top_zaim24,16640,8265,microzaim,spam,affiliate/spam tail
-онлайн займ на карту без отказа,16594,24131,zaim,commercial,"online; card; no refusal"
+онлайн займ на карту без отказа,16594,24131,zaim,later,not MVP clean: no-refusal promise
 квику,16470,24698,zaim,brand,brand/lk or MFO name
 займ взять,16263,20851,zaim,commercial,action
-займ без отказа на карту,16263,20160,zaim,commercial,"card; no refusal"
-без отказа займ,16017,19807,zaim,commercial,no refusal
+займ без отказа на карту,16263,20160,zaim,later,not MVP clean: no-refusal promise
+без отказа займ,16017,19807,zaim,later,not MVP clean: no-refusal promise
 привет сосед займ,15714,29594,zaim,brand,brand/lk or MFO name
-займ онлайн на карту без отказа,15545,18868,zaim,commercial,"online; card; no refusal"
-займы без отказа на карту,15260,22424,zaim,commercial,"card; no refusal"
+займ онлайн на карту без отказа,15545,18868,zaim,later,not MVP clean: no-refusal promise
+займы без отказа на карту,15260,22424,zaim,later,not MVP clean: no-refusal promise
 займ под залог авто,15159,23481,zaim,commercial,"pledge; pts/auto alias"
-новые займы,14701,15167,zaim,later,not MVP now: new/unknown lenders
+новые займы,14701,15167,zaim,later,not MVP clean: new/unknown lenders
 займы онлайн на карту t_me_top_zaim24,14017,6728,zaim,spam,affiliate/spam tail
 займы с плохой кредитной историей,13949,13310,zaim,commercial,bad credit
 микрозайм без процентов на карту,13839,20783,microzaim,commercial,"card; zero percent"
 займы без процентов,12928,28044,zaim,commercial,zero percent
 взять займ онлайн,12678,18582,zaim,commercial,"action; online"
-займ на карту без отказов,12521,15525,zaim,commercial,"card; no refusal"
+займ на карту без отказов,12521,15525,zaim,later,not MVP clean: no-refusal promise
 а деньги займ,12365,19400,zaim,brand,brand/lk or MFO name
-займы без отказов на карту,12230,15390,zaim,commercial,"card; no refusal"
+займы без отказов на карту,12230,15390,zaim,later,not MVP clean: no-refusal promise
 микрозаймы без процентов,12078,18746,zaim,commercial,zero percent
 все займы онлайн,11399,17727,zaim,commercial,"online; comparison"
 займ мобайл,11368,13715,zaim,brand,brand/lk or MFO name
 лайм займ личный кабинет,10886,22807,zaim,brand,brand/lk or MFO name
 бустра займ личный кабинет,10734,18207,zaim,brand,brand/lk or MFO name
-займ на карту онлайн без отказа,10671,13623,zaim,commercial,"online; card; no refusal"
+займ на карту онлайн без отказа,10671,13623,zaim,later,not MVP clean: no-refusal promise
 моментальный займ,10597,12773,zaim,commercial,urgent
 займ на карту с плохой кредитной историей,10489,9543,zaim,commercial,"card; bad credit"
 экспресс займ,10457,11523,zaim,commercial,urgent
@@ -83,97 +83,97 @@ query,clicks,demand,sources,decision,notes
 капуста,10237,28146,zaim,brand,brand/lk or MFO name
 первый займ без процентов,10026,14602,zaim,commercial,zero percent
 небус займ,9780,21817,zaim,brand,brand/lk or MFO name
-займ через госуслуги,9671,9225,zaim,later,not MVP: gosuslugi
-займы без карты,9547,9716,zaim,later,not MVP now: risky promise
-займы на карту без отказа онлайн,9533,11782,zaim,commercial,"online; card; no refusal"
-займы онлайн без отказа на карту,9483,11911,zaim,commercial,"online; card; no refusal"
-займ на карту срочно без отказа,9364,11586,zaim,commercial,"card; no refusal; urgent"
+займ через госуслуги,9671,9225,zaim,later,not MVP clean: gosuslugi
+займы без карты,9547,9716,zaim,later,not MVP clean: risky promise
+займы на карту без отказа онлайн,9533,11782,zaim,later,not MVP clean: no-refusal promise
+займы онлайн без отказа на карту,9483,11911,zaim,later,not MVP clean: no-refusal promise
+займ на карту срочно без отказа,9364,11586,zaim,later,not MVP clean: no-refusal promise
 без процентов займ,9319,11656,zaim,commercial,zero percent
 займ срочно,9281,10819,zaim,commercial,urgent
 микрокредит,9277,13717,microcredit,commercial,core loans
 займ на карту без процентов,9203,10719,zaim,commercial,"card; zero percent"
-онлайн займы на карту без отказа,9182,11299,zaim,commercial,"online; card; no refusal"
+онлайн займы на карту без отказа,9182,11299,zaim,later,not MVP clean: no-refusal promise
 привет сосед займ личный кабинет,9016,14699,zaim,brand,brand/lk or MFO name
 займ с просрочками и плохой кредитной историей,8940,7096,zaim,commercial,bad credit
-онлайн займ без отказа на карту,8833,11135,zaim,commercial,"online; card; no refusal"
-займ на карту без отказа срочно,8796,10087,zaim,commercial,"card; no refusal; urgent"
+онлайн займ без отказа на карту,8833,11135,zaim,later,not MVP clean: no-refusal promise
+займ на карту без отказа срочно,8796,10087,zaim,later,not MVP clean: no-refusal promise
 займ на карту без отказа t_me_top_zaim24,8667,4446,zaim,spam,affiliate/spam tail
-займы без отказа онлайн на карту,8563,10544,zaim,commercial,"online; card; no refusal"
+займы без отказа онлайн на карту,8563,10544,zaim,later,not MVP clean: no-refusal promise
 займ экспресс личный кабинет,8541,7380,zaim,brand,brand/lk or MFO name
 займ без процентов на карту,8522,14674,zaim,commercial,"card; zero percent"
 займ без процентов первый,8504,10086,zaim,commercial,zero percent
-займ онлайн без отказа,8399,12845,zaim,commercial,"online; no refusal"
-займы новые,8368,8926,zaim,later,not MVP now: new/unknown lenders
+займ онлайн без отказа,8399,12845,zaim,later,not MVP clean: no-refusal promise
+займы новые,8368,8926,zaim,later,not MVP clean: new/unknown lenders
 займ на карту без отказа вам одобрено,8240,8265,zaim,spam,affiliate/spam tail
 займ без процента,8168,10693,zaim,commercial,zero percent
 взять займ с плохой кредитной историей,8135,7880,zaim,commercial,"action; bad credit"
-онлайн на карту займ без отказа,8131,10127,zaim,commercial,"online; card; no refusal"
+онлайн на карту займ без отказа,8131,10127,zaim,later,not MVP clean: no-refusal promise
 займы без процента,8095,9515,zaim,commercial,zero percent
 небус займ личный кабинет войти,8076,17814,zaim,brand,brand/lk or MFO name
 займ на карту мгновенно,8067,8395,zaim,commercial,"card; urgent"
-займ ооо,8005,9182,zaim,later,not MVP now: risky promise
+займ ооо,8005,9182,zaim,later,not MVP clean: risky promise
 топ займов,7943,9280,zaim,commercial,comparison
 займ под залог автомобиля,7822,12024,zaim,commercial,"pledge; pts/auto alias"
-займ на карту без отказов онлайн,7729,9701,zaim,commercial,"online; card; no refusal"
-займ на карту онлайн без отказов,7726,9779,zaim,commercial,"online; card; no refusal"
-малоизвестные займы,7597,6767,zaim,later,not MVP now: new/unknown lenders
+займ на карту без отказов онлайн,7729,9701,zaim,later,not MVP clean: no-refusal promise
+займ на карту онлайн без отказов,7726,9779,zaim,later,not MVP clean: no-refusal promise
+малоизвестные займы,7597,6767,zaim,later,not MVP clean: new/unknown lenders
 микрозайм с плохой кредитной историей,7588,6735,microzaim,commercial,bad credit
 юкки займ личный,7582,11035,zaim,brand,brand/lk or MFO name
-займы онлайн без отказа,7491,9598,zaim,commercial,"online; no refusal"
+займы онлайн без отказа,7491,9598,zaim,later,not MVP clean: no-refusal promise
 доброзайм,7444,26071,microzaim,brand,brand/lk or MFO name
 займы онлайн на карту вам одобрено,7383,7398,zaim,spam,affiliate/spam tail
 веб займ личный кабинет,7354,23063,zaim,brand,brand/lk or MFO name
-займы без отказа с плохой кредитной,7166,6148,zaim,commercial,"no refusal; bad credit"
-новые займы онлайн на карту,7136,7622,zaim,later,not MVP now: new/unknown lenders
-микрозайм без отказа,7020,10065,microzaim,commercial,no refusal
+займы без отказа с плохой кредитной,7166,6148,zaim,later,not MVP clean: no-refusal promise
+новые займы онлайн на карту,7136,7622,zaim,later,not MVP clean: new/unknown lenders
+микрозайм без отказа,7020,10065,microzaim,later,not MVP clean: no-refusal promise
 автоломбард займ,6921,7818,zaim,commercial,"pledge; pts/auto alias"
-займ с плохой историей,6913,6679,zaim,commercial,bad credit
+займ с плохой историей,6913,6679,zaim,later,not MVP clean: unclear wording
 займы онлайн на карту без процентов,6893,9818,zaim,commercial,"online; card; zero percent"
 лайк займ,6546,22678,zaim,brand,brand/lk or MFO name
 микрозайм на карту онлайн choosingbestloan,6538,8188,microzaim,spam,affiliate/spam tail
 заем ру,6518,6415,zaim,brand,brand/lk or MFO name
-займ через госуслуги на карту,6496,5943,zaim,later,not MVP: gosuslugi
-взять займ на карту без отказа онлайн,6448,8322,zaim,commercial,"action; online; card; no refusal"
+займ через госуслуги на карту,6496,5943,zaim,later,not MVP clean: gosuslugi
+взять займ на карту без отказа онлайн,6448,8322,zaim,later,not MVP clean: no-refusal promise
 папа займ,6440,7348,zaim,brand,brand/lk or MFO name
-займы через госуслуги,6440,5593,zaim,later,not MVP: gosuslugi
-новые займы онлайн,6437,7623,zaim,later,not MVP now: new/unknown lenders
-займ на карту без отказа без проверки мгновенно,6432,8091,zaim,commercial,"card; no refusal; urgent; docs/checks"
+займы через госуслуги,6440,5593,zaim,later,not MVP clean: gosuslugi
+новые займы онлайн,6437,7623,zaim,later,not MVP clean: new/unknown lenders
+займ на карту без отказа без проверки мгновенно,6432,8091,zaim,later,not MVP clean: no-refusal promise
 без процентов первый займ,6306,7462,zaim,commercial,zero percent
 квики,6276,8408,zaim,brand,brand/lk or MFO name
-займ срочно на карту без отказа,6229,6876,zaim,commercial,"card; no refusal; urgent"
+займ срочно на карту без отказа,6229,6876,zaim,later,not MVP clean: no-refusal promise
 бустра займ,6209,11488,zaim,brand,brand/lk or MFO name
 займ онлайн на карту без процентов,6045,7320,zaim,commercial,"online; card; zero percent"
 быстрые займы,6014,7957,zaim,commercial,urgent
 быстрый займ на карту онлайн,6002,6917,zaim,commercial,"online; card; urgent"
 микрозайм на карту без процентов,5884,6995,microzaim,commercial,"card; zero percent"
-срочный займ на карту без отказа,5863,7267,zaim,commercial,"card; no refusal; urgent"
+срочный займ на карту без отказа,5863,7267,zaim,later,not MVP clean: no-refusal promise
 быстрый займ на карту,5855,7436,zaim,commercial,"card; urgent"
 микрозайм онлайн на карту,5812,5934,"microzaim;zaim",commercial,"online; card"
-займ на карту через госуслуги,5780,5093,zaim,later,not MVP: gosuslugi
+займ на карту через госуслуги,5780,5093,zaim,later,not MVP clean: gosuslugi
 капуста займ,5766,13133,zaim,brand,brand/lk or MFO name
 займы на карту с плохой кредитной историей,5684,5047,zaim,commercial,"card; bad credit"
 взять займ под залог автомобиля,5677,6854,zaim,commercial,"action; pledge; pts/auto alias"
 займы без отказа creditulka,5613,2740,zaim,spam,affiliate/spam tail
-займ на карту без отказа без проверки,5609,6626,zaim,commercial,"card; no refusal; docs/checks"
+займ на карту без отказа без проверки,5609,6626,zaim,later,not MVP clean: no-refusal promise
 займ на карту срочно t_me_top_zaim24,5571,2791,zaim,spam,affiliate/spam tail
 взять займ под залог авто,5522,6926,zaim,commercial,"action; pledge; pts/auto alias"
-займ через госуслуги на карту без отказа,5470,5377,zaim,later,not MVP: gosuslugi
+займ через госуслуги на карту без отказа,5470,5377,zaim,later,not MVP clean: gosuslugi
 займ без процентов вам одобрено,5413,5444,zaim,spam,affiliate/spam tail
-займы на карту без отказа срочно,5410,6535,zaim,commercial,"card; no refusal; urgent"
-малоизвестные новые займы,5393,4632,zaim,later,not MVP now: new/unknown lenders
-займ без отказа на карту срочно,5384,6721,zaim,commercial,"card; no refusal; urgent"
+займы на карту без отказа срочно,5410,6535,zaim,later,not MVP clean: no-refusal promise
+малоизвестные новые займы,5393,4632,zaim,later,not MVP clean: new/unknown lenders
+займ без отказа на карту срочно,5384,6721,zaim,later,not MVP clean: no-refusal promise
 умные наличные займ,5376,7013,zaim,brand,brand/lk or MFO name
 займы онлайн на карту creditulka,5365,2339,zaim,spam,affiliate/spam tail
 дополучкино займ,5318,9995,zaim,brand,brand/lk or MFO name
 бюджет займ,5301,7529,zaim,brand,brand/lk or MFO name
-займы онлайн через госуслуги,5291,4535,zaim,later,not MVP: gosuslugi
-займы онлайн на карту без отказа без проверки,5289,6342,zaim,commercial,"online; card; no refusal; docs/checks"
-займы с плохой кредитной,5260,4853,zaim,commercial,bad credit
+займы онлайн через госуслуги,5291,4535,zaim,later,not MVP clean: gosuslugi
+займы онлайн на карту без отказа без проверки,5289,6342,zaim,later,not MVP clean: no-refusal promise
+займы с плохой кредитной,5260,4853,zaim,later,not MVP clean: unclear wording
 займ под залог машины,5241,6876,zaim,commercial,"pledge; pts/auto alias"
-рефинансирование займов,5239,6324,zaim,later,not MVP now: refinancing
+рефинансирование займов,5239,6324,zaim,later,not MVP clean: refinancing
 займы с просрочками и плохой кредитной историей,5223,4413,zaim,commercial,bad credit
 займ денег под залог автомобиля,5155,6351,zaim,commercial,"pledge; pts/auto alias"
-автоломбард москва под залог,5121,5366,zaim,commercial,"pledge; pts/auto alias; geo later"
+автоломбард москва под залог,5121,5366,zaim,later,not MVP clean: geo later
 микрозайм без процентов на 30 дней,5117,4097,microzaim,commercial,zero percent
 займ на карту онлайн без процентов,5105,6550,zaim,commercial,"online; card; zero percent"
 микрозайм на карту онлайн,5104,14362,"microzaim;zaim",commercial,"online; card"
@@ -182,38 +182,38 @@ query,clicks,demand,sources,decision,notes
 бережный займ,5077,5733,zaim,brand,brand/lk or MFO name
 займ под птс,5047,7676,zaim,commercial,"pledge; pts/auto alias"
 займ денег под залог авто,5046,5656,zaim,commercial,"pledge; pts/auto alias"
-займ под залог авто в москве,5041,6106,zaim,commercial,"pledge; pts/auto alias; geo later"
-займ под залог автомобиля москва,5040,6093,zaim,commercial,"pledge; pts/auto alias; geo later"
-рефинансирование микрозаймов,5033,5053,microzaim,later,not MVP now: refinancing
+займ под залог авто в москве,5041,6106,zaim,later,not MVP clean: geo later
+займ под залог автомобиля москва,5040,6093,zaim,later,not MVP clean: geo later
+рефинансирование микрозаймов,5033,5053,microzaim,later,not MVP clean: refinancing
 взять займ онлайн на карту,4999,6872,zaim,commercial,"action; online; card"
-срочные займы на карту без отказа,4986,5656,zaim,commercial,"card; no refusal; urgent"
+срочные займы на карту без отказа,4986,5656,zaim,later,not MVP clean: no-refusal promise
 калькулятор процентов по займу,4962,5752,zaim,info,support/info intent
 получить деньги под залог автомобиля,4959,5748,zaim,commercial,"action; pledge; pts/auto alias"
-займ по паспорту на карту без отказа,4952,5023,zaim,commercial,"card; no refusal; docs/checks"
+займ по паспорту на карту без отказа,4952,5023,zaim,later,not MVP clean: no-refusal promise
 деньга займ,4949,8683,zaim,brand,brand/lk or MFO name
 вивус займ личный кабинет,4932,5798,zaim,brand,brand/lk or MFO name
-займы через госуслуги онлайн,4911,3904,zaim,later,not MVP: gosuslugi
-взять займ без отказа на карту,4910,6078,zaim,commercial,"action; card; no refusal"
+займы через госуслуги онлайн,4911,3904,zaim,later,not MVP clean: gosuslugi
+взять займ без отказа на карту,4910,6078,zaim,later,not MVP clean: no-refusal promise
 займы без процентов первый раз,4876,6336,zaim,commercial,zero percent
-малоизвестные займы онлайн на карту,4870,3607,zaim,later,not MVP now: new/unknown lenders
-долгосрочные займы без отказа,4857,3406,zaim,commercial,"no refusal; urgent; long-term"
+малоизвестные займы онлайн на карту,4870,3607,zaim,later,not MVP clean: new/unknown lenders
+долгосрочные займы без отказа,4857,3406,zaim,later,not MVP clean: no-refusal promise
 бустра займ личный,4831,9436,zaim,brand,brand/lk or MFO name
 все займы онлайн на карту,4822,6250,zaim,commercial,"online; card; comparison"
 займ без процентов на карту онлайн,4821,6370,zaim,commercial,"online; card; zero percent"
 займ с плохой кредитной историей и просрочками,4821,4448,zaim,commercial,bad credit
-займ без отказа на карту с плохой кредитной историей срочно,4817,4299,zaim,commercial,"card; no refusal; bad credit; urgent"
+займ без отказа на карту с плохой кредитной историей срочно,4817,4299,zaim,later,not MVP clean: no-refusal promise
 финтерс займ,4809,8927,zaim,brand,brand/lk or MFO name
 небус займ личный,4803,10655,zaim,brand,brand/lk or MFO name
 микрозайм до зарплаты,4753,4761,"microzaim;zaim",commercial,salary
 взять деньги под залог машины,4730,5485,zaim,commercial,"action; pledge; pts/auto alias"
 первый займ бесплатно,4710,17665,zaim,commercial,zero percent
-взять займ онлайн на карту без отказа,4708,5313,zaim,commercial,"action; online; card; no refusal"
+взять займ онлайн на карту без отказа,4708,5313,zaim,later,not MVP clean: no-refusal promise
 займы онлайн без процентов,4668,6502,zaim,commercial,"online; zero percent"
 онлайн займ без процентов на карту,4663,5583,zaim,commercial,"online; card; zero percent"
 займ быстро на карту,4658,5728,zaim,commercial,"card; urgent"
-займ онлайн через госуслуги,4656,3925,zaim,later,not MVP: gosuslugi
+займ онлайн через госуслуги,4656,3925,zaim,later,not MVP clean: gosuslugi
 займы без процентов creditulka,4648,2398,zaim,spam,affiliate/spam tail
-где взять займ с убитой ки,4631,4325,zaim,later,not MVP now: risky promise
+где взять займ с убитой ки,4631,4325,zaim,later,not MVP clean: risky promise
 займ под птс авто,4621,6196,zaim,commercial,"pledge; pts/auto alias"
 займ с плохой ки,4605,5201,zaim,commercial,bad credit
 займ срочно на карту,4604,5478,zaim,commercial,"card; urgent"
@@ -221,57 +221,57 @@ query,clicks,demand,sources,decision,notes
 займы без карты вам одобрено,4596,4609,zaim,spam,affiliate/spam tail
 займ онлайн на карту срочно,4595,6277,zaim,commercial,"online; card; urgent"
 финтерс займ личный кабинет,4571,7098,zaim,brand,brand/lk or MFO name
-деньги под залог машины москва,4523,5532,zaim,commercial,"pledge; pts/auto alias; geo later"
+деньги под залог машины москва,4523,5532,zaim,later,not MVP clean: geo later
 займ без процентов онлайн на карту,4509,5305,zaim,commercial,"online; card; zero percent"
 деньги в долг под залог машины,4509,5230,zaim,commercial,"pledge; pts/auto alias"
 твои займы,4491,4628,zaim,brand,brand/lk or MFO name
-займы под залог спецтехники,4489,5093,zaim,later,not MVP now: special equipment
+займы под залог спецтехники,4489,5093,zaim,later,not MVP clean: special equipment
 взять займ под залог машины,4485,5360,zaim,commercial,"action; pledge; pts/auto alias"
-срочные займы на карту без отказов,4481,5367,zaim,commercial,"card; no refusal; urgent"
+срочные займы на карту без отказов,4481,5367,zaim,later,not MVP clean: no-refusal promise
 займ с просрочками,4475,5724,zaim,commercial,bad credit
 микрозайм на карту вам одобрено,4446,4457,microzaim,spam,affiliate/spam tail
 онлайн займ на карту без отказа creditulka,4436,2177,zaim,spam,affiliate/spam tail
 микрокредиты,4434,5084,microcredit,commercial,core loans
 займ под залог птс авто,4372,5657,zaim,commercial,"pledge; pts/auto alias"
 взять займ на карту t_me_top_zaim24,4334,2136,zaim,spam,affiliate/spam tail
-онлайн займ через госуслуги,4332,3508,"microzaim;zaim",later,not MVP: gosuslugi
-на карту займ без отказа срочно,4288,4999,zaim,commercial,"card; no refusal; urgent"
+онлайн займ через госуслуги,4332,3508,"microzaim;zaim",later,not MVP clean: gosuslugi
+на карту займ без отказа срочно,4288,4999,zaim,later,not MVP clean: no-refusal promise
 каширо займ,4287,6407,zaim,brand,brand/lk or MFO name
 микрозаймы без процентов на карту,4275,6047,zaim,commercial,"card; zero percent"
 надо денег займ личный кабинет,4270,9409,zaim,brand,brand/lk or MFO name
-займ онлайн без отказа на карту срочно,4254,4957,zaim,commercial,"online; card; no refusal; urgent"
+займ онлайн без отказа на карту срочно,4254,4957,zaim,later,not MVP clean: no-refusal promise
 турбозайм займ личный кабинет,4244,13407,zaim,brand,brand/lk or MFO name
-займ онлайн на карту через госуслуги,4233,3518,"microzaim;zaim",later,not MVP: gosuslugi
+займ онлайн на карту через госуслуги,4233,3518,"microzaim;zaim",later,not MVP clean: gosuslugi
 турбо займ,4227,16926,zaim,brand,brand/lk or MFO name
 срочные онлайн займы на карту,4222,5880,zaim,commercial,"online; card; urgent"
 оформить займ,4215,6240,zaim,commercial,action
 киви займ,4204,6746,zaim,brand,brand/lk or MFO name
-займ через госуслуги онлайн,4199,3199,"microzaim;zaim",later,not MVP: gosuslugi
-микрозайм через госуслуги,4193,3904,"microzaim;zaim",later,not MVP: gosuslugi
-взять займ без отказа,4190,6733,zaim,commercial,"action; no refusal"
+займ через госуслуги онлайн,4199,3199,"microzaim;zaim",later,not MVP clean: gosuslugi
+микрозайм через госуслуги,4193,3904,"microzaim;zaim",later,not MVP clean: gosuslugi
+взять займ без отказа,4190,6733,zaim,later,not MVP clean: no-refusal promise
 займы без отказа на карту creditulka,4190,2137,zaim,spam,affiliate/spam tail
-займы на карту через госуслуги,4160,3625,zaim,later,not MVP: gosuslugi
+займы на карту через госуслуги,4160,3625,zaim,later,not MVP clean: gosuslugi
 займ без процентов на 30 дней,4127,6194,zaim,commercial,zero percent
 займы онлайн на карту без отказа creditulka,4127,2155,zaim,spam,affiliate/spam tail
-быстрый займ на карту без отказа,4120,4845,zaim,commercial,"card; no refusal; urgent"
+быстрый займ на карту без отказа,4120,4845,zaim,later,not MVP clean: no-refusal promise
 бери беру займ,4090,8987,zaim,brand,brand/lk or MFO name
 квику займ,4056,5920,zaim,brand,brand/lk or MFO name
-займ с просрочками и плохой кредитной,4054,2821,zaim,commercial,bad credit
+займ с просрочками и плохой кредитной,4054,2821,zaim,later,not MVP clean: unclear wording
 целевые финансы займ личный кабинет,4051,5392,zaim,brand,brand/lk or MFO name
-деньги займ на карту,4049,4446,zaim,commercial,card
+деньги займ на карту,4049,4446,zaim,later,not MVP clean: unclear wording
 екапуста займ,4041,7787,zaim,brand,brand/lk or MFO name
 займы на карту срочно,4039,4939,zaim,commercial,"card; urgent"
 белые деньги займ,4014,4226,zaim,brand,brand/lk or MFO name
-займы онлайн на карте,4011,2393,zaim,commercial,"online; card"
-автоломбард москва под залог птс,4009,5887,zaim,commercial,"pledge; pts/auto alias; geo later"
+займы онлайн на карте,4011,2393,zaim,later,not MVP clean: unclear wording
+автоломбард москва под залог птс,4009,5887,zaim,later,not MVP clean: geo later
 займы онлайн с плохой кредитной историей,4005,4105,zaim,commercial,"online; bad credit"
-микрозайм на карту без отказа,3988,4012,microzaim,commercial,"card; no refusal"
+микрозайм на карту без отказа,3988,4012,microzaim,later,not MVP clean: no-refusal promise
 беспроцентный займ,3967,6043,zaim,commercial,zero percent
 займ на 30 дней без процентов,3966,4321,zaim,commercial,zero percent
 займ на карту быстро,3955,5037,zaim,commercial,"card; urgent"
-деньги займ,3933,7669,zaim,maybe,loan intent needs review
+деньги займ,3933,7669,zaim,later,not MVP clean: unclear wording
 займы на карту без процентов онлайн,3898,4950,zaim,commercial,"online; card; zero percent"
-займ взять онлайн на карту без отказа,3891,4489,zaim,commercial,"action; online; card; no refusal"
+займ взять онлайн на карту без отказа,3891,4489,zaim,later,not MVP clean: no-refusal promise
 займы без отказа t_me_top_zaim24,3879,2143,zaim,spam,affiliate/spam tail
 мани мен займ личный кабинет,3870,7821,zaim,brand,brand/lk or MFO name
 автоломбард кредит под залог птс,3864,4702,zaim,commercial,"pledge; pts/auto alias"
@@ -280,7 +280,7 @@ query,clicks,demand,sources,decision,notes
 займы без процентов онлайн на карту,3847,4803,zaim,commercial,"online; card; zero percent"
 займы на карту без процентов,3846,4786,zaim,commercial,"card; zero percent"
 займ на карту онлайн срочно,3827,4281,zaim,commercial,"online; card; urgent"
-займ без отказа онлайн,3821,4845,zaim,commercial,"online; no refusal"
+займ без отказа онлайн,3821,4845,zaim,later,not MVP clean: no-refusal promise
 золотая корона займ,3809,4877,zaim,brand,brand/lk or MFO name
 срочный займ на карту,3807,4624,zaim,commercial,"card; urgent"
 срочные займы на карту,3785,4299,zaim,commercial,"card; urgent"
@@ -288,16 +288,16 @@ query,clicks,demand,sources,decision,notes
 квики займ,3761,4683,zaim,brand,brand/lk or MFO name
 взять микрозайм на карту,3752,4807,microzaim,commercial,"action; card"
 займ онлайн с плохой кредитной историей,3752,3492,zaim,commercial,"online; bad credit"
-новые займы 2025,3749,3788,zaim,later,not MVP now: new/unknown lenders
+новые займы 2025,3749,3788,zaim,later,not MVP clean: new/unknown lenders
 целевые финансы займ,3745,5410,zaim,brand,brand/lk or MFO name
-автоломбард займ под залог птс москва,3717,4651,zaim,commercial,"pledge; pts/auto alias; geo later"
-займы 2025,3715,3542,zaim,later,not MVP now: new/unknown lenders
+автоломбард займ под залог птс москва,3717,4651,zaim,later,not MVP clean: geo later
+займы 2025,3715,3542,zaim,later,not MVP clean: new/unknown lenders
 займы онлайн на карту кредит экспресс,3706,3774,zaim,commercial,"online; card; urgent"
 займ на карту без проверок,3698,4380,zaim,commercial,"card; docs/checks"
-займы без отказа с плохой кредитной историей на карту,3695,3157,zaim,commercial,"card; no refusal; bad credit"
+займы без отказа с плохой кредитной историей на карту,3695,3157,zaim,later,not MVP clean: no-refusal promise
 лучшие займы,3680,5554,zaim,commercial,comparison
 займы на карту creditulka,3665,1769,zaim,spam,affiliate/spam tail
-займы которые дают абсолютно всем на карту,3625,3508,zaim,later,not MVP now: risky promise
+займы которые дают абсолютно всем на карту,3625,3508,zaim,later,not MVP clean: risky promise
 займ без проверок,3621,4212,zaim,commercial,docs/checks
 займы онлайн новые,3582,4349,zaim,,
 юки займ,3571,9232,zaim,,
