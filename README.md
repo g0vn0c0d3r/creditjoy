@@ -33,6 +33,7 @@ creditjoy/
 
     competitors/
       field.md
+      loan-url-structure.md
       top-5.md
       structure-notes.md
 
@@ -62,6 +63,7 @@ creditjoy/
 - `planning/strategy.md` - стратегия, принципы и масштабирование на другие продукты.
 - `planning/page-types.md` - общая модель страниц для всех продуктов.
 - `planning/competitors/field.md` - первичный список конкурентного поля по займам.
+- `planning/competitors/loan-url-structure.md` - порядок URL, язык слагов и гео-логика конкурентов.
 - `planning/competitors/top-5.md` - основной список конкурентов для глубокого разбора.
 - `planning/competitors/structure-notes.md` - рабочие заметки по структуре конкурентов.
 - `planning/products/zaimy.md` - первый продукт MVP.
