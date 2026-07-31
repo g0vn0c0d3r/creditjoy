@@ -43,20 +43,28 @@
 
 ## Беззалоговые направления
 
-Кандидаты для проверки:
+Полный инвентарь интентов и приоритеты лежат в `planning/products/zaimy-intents.md`.
 
-- `/zaimy/online/`
+Стартовые кандидаты:
+
 - `/zaimy/na-kartu/`
 - `/zaimy/bez-procentov/`
 - `/zaimy/s-plohoy-kreditnoy-istoriey/`
-- `/zaimy/srochno/`
-- `/zaimy/do-zarplaty/`
-- `/zaimy/dolgosrochnye/`
-- `/zaimy/kruglosutochno/`
 - `/zaimy/po-pasportu/`
 - `/zaimy/bez-spravok/`
+- `/zaimy/do-zarplaty/`
+- `/zaimy/srochnye/`
+- `/zaimy/kruglosutochno/`
 
-Отложить:
+Отдельно проверить после семантики:
+
+- `/zaimy/online/` - возможно, роль общего хаба `/zaimy/`;
+- `/zaimy/dolgosrochnye/`;
+- `/zaimy/kratkosrochnye/`;
+- `/zaimy/nalichnymi/`;
+- `/zaimy/na-schet/`.
+
+Не брать как чистые MVP-страницы:
 
 - без отказа;
 - без проверок;
@@ -68,7 +76,7 @@
 
 - `/zaimy/pod-zalog/` - общий хаб залоговых займов.
 - `/zaimy/pod-zalog-pts/` - ПТС / авто / автомобиль / машина / автоломбард как одно направление-алиас.
-- `/zaimy/pod-zalog-nedvizhimosti/` - проверить спрос и структуру у конкурентов.
+- `/zaimy/pod-zalog-nedvizhimosti/` - проверить спрос, офферы и юридическую модель отдельно.
 - `/zaimy/pod-zalog-tehniki/` - только если семантика и конкуренты подтверждают отдельный интент.
 
 ## Гео

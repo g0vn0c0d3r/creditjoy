@@ -39,6 +39,7 @@ creditjoy/
 
     products/
       zaimy.md
+      zaimy-intents.md
 
     semantics/
       keyword-processing.md
@@ -67,6 +68,7 @@ creditjoy/
 - `planning/competitors/top-5.md` - основной список конкурентов для глубокого разбора.
 - `planning/competitors/structure-notes.md` - рабочие заметки по структуре конкурентов.
 - `planning/products/zaimy.md` - первый продукт MVP.
+- `planning/products/zaimy-intents.md` - полный инвентарь интентов по займам и рекомендации по приоритетам.
 - `planning/semantics/keyword-processing.md` - как собирается единый файл запросов.
 - `planning/semantics/keyword-mapping.md` - как привязываем запросы к выбранным слагам и отсекаем лишнее.
 - `data/raw/wordcraft/` - исходные Excel-файлы Wordcraft.
