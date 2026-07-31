@@ -27,12 +27,20 @@
 creditjoy/
   README.md
 
-  docs/
-    competitor-structure.md
-    strategy.md
-    product-zaimy.md
-    keyword-processing.md
-    keyword-review.md
+  planning/
+    roadmap.md
+
+    competitors/
+      top-5.md
+      structure-notes.md
+
+    product/
+      zaimy.md
+      page-structures.md
+
+    semantics/
+      keyword-processing.md
+      keyword-review.md
 
   data/
     raw/
@@ -49,11 +57,13 @@ creditjoy/
 
 ## Главные файлы
 
-- `docs/competitor-structure.md` - как устроена глубина у конкурентов.
-- `docs/strategy.md` - наша стратегия: MVP, продуктовые слои, гео, модификаторы, антидубли.
-- `docs/product-zaimy.md` - черновик структуры продукта `займы`.
-- `docs/keyword-processing.md` - как собирается единый файл запросов.
-- `docs/keyword-review.md` - рабочая логика ручного разбора запросов без финальных slug-кластеров.
+- `planning/roadmap.md` - общий план запуска и рамка MVP.
+- `planning/competitors/top-5.md` - основной список конкурентов для глубокого разбора.
+- `planning/competitors/structure-notes.md` - рабочие заметки по структуре конкурентов.
+- `planning/product/zaimy.md` - черновик карты продукта `займы`.
+- `planning/product/page-structures.md` - наброски структуры страниц.
+- `planning/semantics/keyword-processing.md` - как собирается единый файл запросов.
+- `planning/semantics/keyword-review.md` - рабочая логика ручного разбора запросов без финальных slug-кластеров.
 - `data/raw/wordcraft/` - исходные Excel-файлы Wordcraft.
 - `data/keywords.csv` - главный рабочий файл со всеми словами.
 - `scripts/build-keywords.mjs` - скрипт, который пересобирает `data/keywords.csv` из исходных Excel-файлов.
