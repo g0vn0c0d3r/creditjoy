@@ -26,6 +26,71 @@
 - карточка оффера должна показывать сумму, срок, ставку, ПСК, вероятность/скорость решения, лицензию, способы получения, риски платных услуг;
 - на странице нужны не только SEO-текст и офферы, но и калькулятор/подбор, FAQ, отзывы, блоки доверия и перелинковка.
 
+## Сводка slug-интентов конкурентов
+
+Срез: 2026-08-01.
+
+В таблице один ряд = один коммерческий сценарий. Внутри ряда собраны варианты slug-ов и формулировок конкурентов, которые пересекаются по смыслу. Гео-страницы, карточки конкретных МФО и отзывы вынесены отдельно, чтобы не смешивать продуктовые интенты с сущностями.
+
+| Группа | Уникальный сценарий | Найденные варианты у конкурентов | Что это значит для CreditJoy |
+| --- | --- | --- | --- |
+| База | Хаб займов | `/zaimy/`, `/zaymy`, `/zajmy/`, `/zajmy/online/`, `/microloans/`, `/mikrozajmy` | Нужен один продуктовый хаб `/zaimy/`. |
+| База | Онлайн-заявка / онлайн-займ | `online`, `onlain`, `microcredit-online`, `teg_online_zayavka`, `zaym_online`, `byistryie_zaymyi` | Чистый базовый интент, можно держать как основной сценарий хаба или отдельную страницу после проверки семантики. |
+| База | Подбор / калькулятор | `/podbor-zayma-online`, `/podbor_zajma`, `/zajmy/calculator/`, `zayavka-vse-mfo` | Это лучше делать как функциональный слой, а не только SEO-страницу. |
+| Рейтинг/организации | Лучшие / топ / рейтинг | `best`, `top`, `luchshie`, `top_zaimov`, `rating`, `rating-mfo`, `proverennye`, `nadezhnye` | Нужен слой доверия: рейтинг МФО, проверенные компании, методология. |
+| Рейтинг/организации | МФО и карточки компаний | `mfo`, `mkk`, `mfo/{company}`, `mfo/{company}/otzyvy`, `/zaym-{company}/`, `polzovatelskij_rejting_mfo` | Карточки компаний лучше проектировать как отдельную сущность, связанную с интентами. |
+| Способ получения | На карту | `na-kartu`, `online-na-kartu`, `na-kartu-onlain`, `onlajn_na_kartu`, `mikrokredity-na-kartu`, `zaym_na_kartu`, `zaymyi_na_kartu_po_vsey_rossii` | Один из главных чистых интентов для MVP. |
+| Способ получения | На карту быстро / срочно / мгновенно | `na-kartu-bystro`, `na-kartu-mgnovenno`, `na-kartu-ekspress`, `ekspress_zajm_na_kartu`, `srazu-na-kartu`, `srochnye-na-kartu`, `za-5-minut-na-kartu` | Не плодить все сразу: это алиасы к `на карту` и `срочно`, пока не доказан отдельный спрос. |
+| Способ получения | Конкретные карты и банки | `na-kartu-mir`, `na-kartu-sberbanka`, `na-kartu-sberbanka-do-zarplaty`, `na-kartu-tinkoff`, `na-kartu-tbank`, `na-kartu-vtb`, `na-kartu-alfa-banka`, `na-kartu-ozon-banka`, `na-kartu-kukuruza`, `na-kartu-maestro`, `na-kartu-visa`, `na-kartu-momentum`, `na-kreditnuyu-kartu`, `na-virtualnuyu-kartu`, `na-neimennuyu-kartu`, `na-chuzhuyu-kartu`, `na-kartu-s-nulevym-balansom` | Длинный хвост. В MVP только если есть сильный спрос и можно дать полезные отличия. |
+| Способ получения | Наличными / счет / перевод | `nalichnymi`, `na-bankovskij-schet`, `perevodom`, `denezhnym-perevodom`, `cherez-zolotuyu-koronu`, `zolotaya-korona`, `na-contact`, `po-sbp` | Можно держать как фильтры и будущие посадочные. |
+| Способ получения | Электронные кошельки | `na-koshelek`, `na-elektronnyy-koshelek`, `na-elektronnyj-koshelek`, `na-yandex-dengi`, `na-yandex`, `na-yoomoney`, `yoomoney`, `qiwi`, `na_qiwi_koshelek`, `webmoney` | Хвостовый интент, не первый приоритет. |
+| Способ получения | По телефону / SMS / номеру | `po-telefonu`, `na-nomer-telefona`, `na-telefon`, `po-sms`, `sms` | Часто пересекается с упрощенной заявкой; осторожно с качеством страницы. |
+| Способ получения | Без карты / на дом | `bez-karty`, `na-dom`, `na-dom-srochno`, `zaem-na-dom`, `ne-vyhodya-iz-doma` | Лучше как фильтр, отдельная посадочная только при понятных офферах. |
+| Цена | Без процентов / первый бесплатно | `bez-procentov`, `bez-protsentov`, `pervyj-bez-procentov`, `pervyj-zajm-bez-procentov`, `pod-0-procentov`, `besplatnye`, `30-dnej-bez-procentov`, `bez-protsentov-na-30-dnej`, `na-kartu-bez-procentov`, `na-mesyac-bez-procentov`, `srochnye-bez-procentov` | Чистый интент для MVP, но с прозрачным объяснением условий акции. |
+| Цена | Низкий процент / выгодные | `pod-nizkiy-procent`, `pod-nizkij-procent`, `s-nizkim-procentom`, `vygodnye`, `pod-procenty` | Требует честной методологии сортировки. |
+| Цена | Без платных услуг / скрытых списаний | `bez-podpisok`, `bez-platnyh-podpisok`, `bez_platnyh_uslug`, `bez-komissii`, `bez-predoplat`, `bez-predoplaty`, `bez-spisaniya-deneg-s-karty`, `bez-strahovok`, `bez-posrednikov` | Хорошее место для улучшения CreditJoy: показывать подписки, комиссии и риски в карточке. |
+| Одобрение/КИ | Плохая кредитная история | `s-plohoi-ki`, `s-plohoy-kreditnoy-istoriey`, `s-plokhoj-kreditnoj-istoriej`, `s_plohoy_kreditnoy_istoriey`, `na-kartu-s-plohoi-ki`, `s-plohoy-kreditnoy-istoriey-na-kartu` | Можно делать только без обещаний, через вероятность и условия МФО. |
+| Одобрение/КИ | Просрочки / черный список / нет истории | `s-prosrochkami`, `s-chernym-spiskom`, `bez-kreditnoj-istorii`, `dlya-uluchsheniya-kreditnoj-istorii`, `mfo-bez-proverki-kreditnoy-istorii` | Сомнительная зона, нужна юридически аккуратная подача. |
+| Одобрение/КИ | Без отказа / всем / 100% | `bez-otkaza`, `bezotkaznye`, `na-kartu-bez-otkaza`, `na-kartu-bez-otkazov`, `100-procentov-odobreniya`, `100-procentov-odobrenie`, `bez-otkaza-100-procentov-odobreniya`, `s-vysokim-odobreniem`, `s-avtomaticheskim-odobreniem`, `absolyutno-vsem`, `vsem`, `posle-otkaza` | Для CreditJoy это не “чистый” MVP-интент: нельзя обещать гарантированное одобрение. |
+| Одобрение/КИ | Должники / банкроты / сложные заемщики | `dolzhnikam`, `bankrotam`, `dlya-bankrotov`, `propashchim`, `sovsem-propashchim`, `s-samozapretom`, `dengi-v-dolg-bez-proverki-kreditnoj-istorii` | Отложить до отдельной проверки спроса, рисков и качества офферов. |
+| Документы | По паспорту | `po-pasportu`, `zaym_po_pasportu` | Чистый интент, но может быть алиасом к онлайн-займу. |
+| Документы | Без справок / поручителей / залога | `bez-spravok`, `bez-poruchiteley`, `bez-poruchitelej`, `bez-poruchiteley-i-spravok`, `bez-zaloga`, `mikrozaem_bez_zaloga` | `без залога` может быть важным антонимом к залоговым займам. |
+| Документы | Без документов / идентификации | `bez-pasporta`, `bez-dokumentov`, `bez-foto`, `bez-foto-pasporta`, `bez-foto-lica-i-dokumentov`, `bez-snils`, `bez-snilsa`, `bez-podtverzhdeniya-lichnosti`, `zajmy-bez-biometrii`, `bez-nomera-telefona`, `bez-elektronnoy-pochty`, `bez-ukazanija-raboti`, `bez-registracii`, `bez-propiski` | В основном рискованный хвост, не MVP. |
+| Документы | Госуслуги / приложение / роботы | `cherez-gosuslugi`, `gosuslugi`, `cherez-prilozhenie`, `tinkoff-id`, `robot`, `roboty-zajmov`, `telegram` | Фиксируем как рынок, но не берем в чистый MVP без веской причины. |
+| Скорость | Срочно / быстро / моментально | `srochnyj`, `srochnye`, `srochnye_onlajn`, `bystryj`, `bystryi`, `momentalnyi`, `mgnovennye`, `na-kartu-mgnovenno`, `express`, `ehkspress-na-kartu`, `za-5-minut`, `za-1-minutu`, `za-minutu`, `za-15-minut`, `srazu`, `kruglosutochno`, `24-chasa-onlayn`, `nochyu`, `v-den-obrashcheniya`, `avtomatom` | Сильная группа, но нужно объединять близкие алиасы. |
+| Срок | До зарплаты / короткий срок | `do-zarplaty`, `na-kartu-do-zarplaty`, `do-zarplaty-na-kartu`, `kratkosrochnye`, `kratkosrochnyi`, `na-7-dney`, `na-60-dnej` | `до зарплаты` выглядит как отдельный чистый интент. |
+| Срок | Долгосрочные / конкретный срок | `dolgosrochnyj`, `dolgosrochnye`, `na-kartu-dolgosrochniy`, `dolgosrochnye-na-kartu`, `na-mesyac`, `na-1-mesjac`, `na-polgoda`, `na-polgoda-6-mesyacev`, `na-6-mesyacev`, `na-3-mesyaca`, `3-mesyaca`, `na-god`, `na-1-god`, `na-2-goda`, `na-5-let` | Долгосрочные можно рассматривать, конкретные сроки чаще как хвост. |
+| Возврат | Ежемесячный платеж / рассрочка / погашение | `s-ezhemesyachnyj-platezhom`, `s-ezhemesyachnym-platezhom`, `na-dlitelnyj-srok-s-ezhemesyachnoj-oplatoj`, `v-rassrochku`, `dengi-v-rassrochku-bez-procentov`, `s-prolongaciej`, `dlya-pogasheniya`, `dlja-pogashenija`, `na-pogashenie-drugih-zajmov`, `refinansirovanie` | Важная информационная группа, но коммерческие страницы нужны только при офферах. |
+| Сумма | Микро- и крупные суммы | `mini`, `bolshie`, `bolshie-zaimy`, `na-bolshuyu-summu` | Можно использовать как навигационный фильтр. |
+| Сумма | Конкретная сумма | `100-rubley`, `na-100-rublej`, `500-rubley`, `na-500-rublej`, `1000-rubley`, `na-1000-rublej`, `2000-rubley`, `na-2000-rublej`, `3000-rubley`, `4000-rubley`, `5000-rubley`, `10000-rubley`, `15000-rubley`, `20000-rubley`, `25000-rubley`, `30000-rubley`, `40000-rubley`, `50000-rubley`, `60000-rubley`, `70000-rubley`, `100000-rubley`, `150000-rubley`, `200000-rubley`, `300000-rubley`, `na-500000-rublej`, `srochno-{sum}`, `teg_500000` | Массовый хвост. Для MVP не нужен как отдельная сетка, лучше через калькулятор и алиасы. |
+| Аудитория | Возраст | `s-16-let-na-kartu`, `s-18-let`, `s-19-let`, `s-20-let`, `s-21-goda`, `do-75-let`, `pensioneram-do-75-let`, `do-80-let`, `pensioneram-do-80-let`, `80-let`, `85-let` | Сомнительный хвост, не стартовать без данных. |
+| Аудитория | Социальная/профильная категория | `studentam`, `studentam-na-kartu-bez-otkaza`, `pensioneram`, `pensioneram-na-kartu`, `bezrabotnym`, `na-kartu-bezrabotnym`, `dlya-ip`, `dlya-biznesa`, `biznes`, `dlya-samozaniatykh-grazhdan`, `microzaym_dlya_samozanyatih`, `muzhchinam`, `zhenshchinam`, `voennosluzhashhim` | Брать только если есть отдельные условия/офферы или сильный спрос. |
+| Аудитория | Гражданство / иностранцы | `dlya-grazhdan-sng`, `dlya-inostrannyh-grazhdan`, `inostrannym-grazdanam`, `inostrancam`, `dlya-grazhdan-kazahstana`, `dlya-grazhdan-kazakhstana`, `dlya-grazhdan-kirgizii`, `dlya-grazhdan-tadzhikistana`, `dlya-grazhdan-uzbekistana`, `dlya-grazhdan-belorussii`, `dlya-grazhdan-armenii` | Хвост с высоким риском тонких страниц. |
+| Залог | Без залога | `bez-zaloga`, `mikrozaem_bez_zaloga` | Один из ключевых MVP-сценариев как противопоставление залоговым займам. |
+| Залог | Под залог ПТС | `pod-zalog-pts`, `pod-pts`, `pod-pts-avtolombardy`, `dengi-v-dolg-pod-zalog-pts` | Ключевой MVP-сценарий. |
+| Залог | Под залог авто / транспорта | `pod-zalog-avto`, `pod-zalog-gruzovogo-avtomobilya`, `zaym_pod_zalog_avto` | Ключевой залоговый сценарий, может быть рядом с ПТС. |
+| Залог | Под залог недвижимости / квартиры | `pod-zalog-nedvizhimosti`, `pod-zalog-kvartiry` | Ключевой MVP-сценарий, если брокерская модель покрывает такие офферы. |
+| Залог | Другие виды залога | `pod-zalog`, `pod-zalog-dokumentov`, `pod-raspisku`, `pod-materinskij-kapital` | Сначала как дочерняя логика, не обязательно MVP. |
+| Другое | Частные / деньги в долг / сезонное | `dengi-v-dolg`, `dengi-v-dolg-na-kartu`, `chastnye`, `novye`, `novye-mfo`, `maloizvestnye`, `novogodnie`, `credit-services` | Использовать как рабочую память, не как готовую структуру. |
+
+## Как конкуренты группируют интенты
+
+| Конкурент | Как устроена группировка | Логика, которую можно взять |
+| --- | --- | --- |
+| `Sravni.ru` | Хаб `/zaimy/`, верхние интенты в навигации, гео-блоки, prefooter "Часто ищут": регионы, ПТС/автоломбарды, без проверок, быстрое оформление, сроки, погашение, сложные случаи, рейтинги/новинки, способы получения, суммы, аудитории и документы. | Хорошая связка `продукт -> интент -> город`, плюс prefooter как карта спроса. |
+| `Bankiros.ru` | Почти вся матрица лежит плоско в `/zaymy/{intent}`; отдельно есть `/podbor-zayma-online`; гео идет тем же продуктовым уровнем. | Максимальный источник хвоста. Для CreditJoy полезен как инвентарь, но не как готовый список страниц. |
+| `Banki.ru` | Хаб `/microloans/`, каталог `/microloans/catalogue/{intent}/`, город после интента, отдельные карточки продуктов и сильный слой отзывов/рейтингов. | Брать доверительный слой: каталог, карточки МФО, отзывы, эксперты, вопросы. |
+| `Finuslugi.ru` | Хаб `/mikrozajmy`, интенты через `teg_*`, гео через `reg_*`, отдельный мастер `/podbor_zajma`, официальная навигация по МФО и отзывам. | Брать официальный тон, безопасность, экспертов и подбор; не брать технические `teg_`/`reg_` в URL. |
+| `Brobank.ru` | Хаб `/zajmy/`, основной вход `/zajmy/online/`, табы над выдачей и блок "Готовые решения": условия получения, тип займа, сумма, срок, категории заемщиков, скорость, возврат, проверенные МФО. | Лучшая явная группировка хвоста. Можно адаптировать как навигацию и внутреннюю перелинковку. |
+
+## Вывод по slug-срезу
+
+- Рынок уже доказал основные группы: способ получения, залог, цена, скорость, срок, КИ/одобрение, документы, аудитории, суммы, гео, МФО/отзывы.
+- Для MVP не нужно копировать всю матрицу: чистыми выглядят `на карту`, `без процентов`, `без залога`, `под залог`, `под залог ПТС`, `под залог авто`, `под залог недвижимости`, `до зарплаты`, возможно `с плохой КИ` только с осторожной формулировкой.
+- Рискованные интенты (`без отказа`, `100% одобрение`, `всем`, `без проверок`, `без паспорта`, `Госуслуги`) фиксируем как рынок, но не берем в чистый MVP без отдельного решения.
+- Суммы, сроки, банки карт и аудитории лучше сначала использовать как фильтры/алиасы и проверять по `data/keywords.csv`.
+- Лучшее улучшение CreditJoy не в новой архитектуре, а в качестве страницы: прозрачные условия, ПСК, комиссии, подписки, страховки, лицензии, методология рейтинга, калькулятор и понятная перелинковка.
+
 ## Матрица конкурентов
 
 | Сайт | Хаб | Интенты | Гео | Карточки | Фильтры/калькулятор | FAQ/экспертность | Перелинковка |
@@ -267,15 +332,25 @@
 - https://www.sravni.ru/zaimy/
 - https://www.sravni.ru/zaimy/moskva/
 - https://www.sravni.ru/zaimy/pod-pts/
+- https://www.sravni.ru/zaimy/bez-otkaza/
+- https://www.sravni.ru/zaimy/na-kartu-onlain/
 - https://bankiros.ru/zaymy
+- https://bankiros.ru/sitemap-zaymy.xml
 - https://bankiros.ru/zaymy/online
 - https://bankiros.ru/zaymy/pod-zalog-pts
+- https://bankiros.ru/zaymy/bez-podpisok
 - https://www.banki.ru/microloans/
 - https://www.banki.ru/microloans/catalogue/zaym_na_kartu/
+- https://www.banki.ru/microloans/catalogue/zaymyi_na_kartu_po_vsey_rossii/
+- https://www.banki.ru/microloans/catalogue/byistryie_zaymyi/
 - https://www.banki.ru/microloans/catalogue/besprotsentnyiy_zaym/
+- https://www.banki.ru/microloans/catalogue/zaymy_pod_zalog_dokumentov/
 - https://www.banki.ru/microloans/catalogue/zaymyi_s_plohoy_kreditnoy_istoriey/kazan~/
+- https://finuslugi.ru/sitemap
 - https://finuslugi.ru/mikrozajmy
 - https://finuslugi.ru/mikrozajmy/teg_bez_procentov
+- https://finuslugi.ru/mikrozajmy/teg_onlajn_na_kartu
+- https://finuslugi.ru/mikrozajmy/teg_pod_zalog_pts
 - https://finuslugi.ru/mikrozajmy/reg_moskva
 - https://brobank.ru/zajmy/online/
 - https://brobank.ru/zajmy/na-kartu/
