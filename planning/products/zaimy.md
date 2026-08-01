@@ -118,31 +118,29 @@
 - `bez-procentov` - сильный коммерческий интент по условию;
 - `pod-zalog-pts` - отдельная залоговая ветка, чтобы сразу проверить, как живет более сложный продуктовый сценарий.
 
-Пример дерева:
+Дерево с линиями и полными путями:
 
 ```text
 /
-
-/zaimy/
-  na-kartu/
-  bez-procentov/
-  pod-zalog-pts/
-
-  moskva/
-  sankt-peterburg/
-  novosibirsk/
-
-  na-kartu/moskva/
-  na-kartu/sankt-peterburg/
-  na-kartu/novosibirsk/
-
-  bez-procentov/moskva/
-  bez-procentov/sankt-peterburg/
-  bez-procentov/novosibirsk/
-
-  pod-zalog-pts/moskva/
-  pod-zalog-pts/sankt-peterburg/
-  pod-zalog-pts/novosibirsk/
+`-- /zaimy/ - продукт
+    |-- /zaimy/moskva/ - гео продукта
+    |-- /zaimy/sankt-peterburg/ - гео продукта
+    |-- /zaimy/novosibirsk/ - гео продукта
+    |
+    |-- /zaimy/na-kartu/ - интент
+    |   |-- /zaimy/na-kartu/moskva/ - интент + город
+    |   |-- /zaimy/na-kartu/sankt-peterburg/ - интент + город
+    |   `-- /zaimy/na-kartu/novosibirsk/ - интент + город
+    |
+    |-- /zaimy/bez-procentov/ - интент
+    |   |-- /zaimy/bez-procentov/moskva/ - интент + город
+    |   |-- /zaimy/bez-procentov/sankt-peterburg/ - интент + город
+    |   `-- /zaimy/bez-procentov/novosibirsk/ - интент + город
+    |
+    `-- /zaimy/pod-zalog-pts/ - интент
+        |-- /zaimy/pod-zalog-pts/moskva/ - интент + город
+        |-- /zaimy/pod-zalog-pts/sankt-peterburg/ - интент + город
+        `-- /zaimy/pod-zalog-pts/novosibirsk/ - интент + город
 ```
 
 Такая сетка дает 15 страниц для проверки:
