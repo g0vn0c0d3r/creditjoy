@@ -87,7 +87,7 @@
 - `/zaimy/na-kartu/moskva/`
 - `/zaimy/pod-zalog-pts/moskva/`
 
-Полный инвентарь интентов и рекомендации по MVP лежат в `planning/products/zaimy-intents.md`.
+Полный инвентарь интентов и рекомендации по MVP лежат в `planning/products/zaimy.md`.
 
 ## Источники
 

@@ -42,8 +42,6 @@ creditjoy/
 
     products/
       zaimy.md
-      zaimy-intents.md
-      zaimy-map.md
 
     semantics/
       keyword-processing.md
@@ -72,9 +70,7 @@ creditjoy/
 - `planning/competitors/top-5-loan-structure.md` - разбор структуры займов у топ-5.
 - `planning/competitors/top-5.md` - основной список конкурентов для глубокого разбора.
 - `planning/competitors/structure-notes.md` - рабочие заметки по структуре конкурентов.
-- `planning/products/zaimy.md` - первый продукт MVP.
-- `planning/products/zaimy-intents.md` - полный инвентарь интентов по займам и рекомендации по приоритетам.
-- `planning/products/zaimy-map.md` - карта продукта `займы` на основе конкурентов и SEO-рекомендаций.
+- `planning/products/zaimy.md` - единый файл продукта `займы`: роль, структура, интенты, URL-кандидаты, алиасы, гео, индексация и перелинковка.
 - `planning/semantics/keyword-processing.md` - как собирается единый файл запросов.
 - `planning/semantics/keyword-mapping.md` - как привязываем запросы к выбранным слагам и отсекаем лишнее.
 - `data/raw/wordcraft/` - исходные Excel-файлы Wordcraft.
