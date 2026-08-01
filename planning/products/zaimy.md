@@ -23,9 +23,8 @@
 
 ## Входные данные
 
-- Конкуренты: `Sravni`, `Bankiros/Myfin`, `Banki`, `Finuslugi`, `Brobank`.
-- URL-логика: `planning/competitors/loan-url-structure.md`.
-- Разбор структуры топ-5: `planning/competitors/top-5-loan-structure.md`.
+- Конкурентный разбор: `planning/competitors.md`.
+- Топ-5: `Sravni`, `Bankiros/Myfin`, `Banki`, `Finuslugi`, `Brobank`.
 - Семантика: `data/keywords.csv`.
 - Официальные рекомендации Google и Яндекса по структуре, полезности страниц, дублям, каноникализации и фильтрам.
 

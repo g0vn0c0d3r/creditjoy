@@ -32,13 +32,7 @@ creditjoy/
     roadmap.md
     strategy.md
     page-types.md
-
-    competitors/
-      field.md
-      loan-url-structure.md
-      top-5-loan-structure.md
-      top-5.md
-      structure-notes.md
+    competitors.md
 
     products/
       zaimy.md
@@ -65,11 +59,7 @@ creditjoy/
 - `planning/roadmap.md` - последовательность запуска проекта.
 - `planning/strategy.md` - стратегия, принципы и масштабирование на другие продукты.
 - `planning/page-types.md` - общая модель страниц для всех продуктов.
-- `planning/competitors/field.md` - первичный список конкурентного поля по займам.
-- `planning/competitors/loan-url-structure.md` - порядок URL, язык слагов и гео-логика конкурентов.
-- `planning/competitors/top-5-loan-structure.md` - разбор структуры займов у топ-5.
-- `planning/competitors/top-5.md` - основной список конкурентов для глубокого разбора.
-- `planning/competitors/structure-notes.md` - рабочие заметки по структуре конкурентов.
+- `planning/competitors.md` - единый конкурентный разбор: кого выбрали, что нашли, какие выводы берем для CreditJoy.
 - `planning/products/zaimy.md` - единый файл продукта `займы`: роль, структура, интенты, URL-кандидаты, алиасы, гео, индексация и перелинковка.
 - `planning/semantics/keyword-processing.md` - как собирается единый файл запросов.
 - `planning/semantics/keyword-mapping.md` - как привязываем запросы к выбранным слагам и отсекаем лишнее.
