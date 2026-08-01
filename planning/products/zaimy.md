@@ -102,6 +102,73 @@
 /zaimy/pod-zalog-pts/moskva/    займы под залог ПТС в Москве
 ```
 
+## Пред-MVP структура для отработки
+
+Это не финальный MVP и не решение по запуску. Это маленькая стартовая сетка, на которой удобно отработать структуру страниц, фильтры, карточки офферов, перелинковку и текстовые блоки.
+
+Берем:
+
+- 1 продукт: `займы`;
+- 3 интента: `na-kartu`, `bez-procentov`, `pod-zalog-pts`;
+- 3 города: `moskva`, `sankt-peterburg`, `novosibirsk`.
+
+Почему эти интенты:
+
+- `na-kartu` - самый понятный способ получения денег;
+- `bez-procentov` - сильный коммерческий интент по условию;
+- `pod-zalog-pts` - отдельная залоговая ветка, чтобы сразу проверить, как живет более сложный продуктовый сценарий.
+
+Пример дерева:
+
+```text
+/
+
+/zaimy/
+  na-kartu/
+  bez-procentov/
+  pod-zalog-pts/
+
+  moskva/
+  sankt-peterburg/
+  novosibirsk/
+
+  na-kartu/moskva/
+  na-kartu/sankt-peterburg/
+  na-kartu/novosibirsk/
+
+  bez-procentov/moskva/
+  bez-procentov/sankt-peterburg/
+  bez-procentov/novosibirsk/
+
+  pod-zalog-pts/moskva/
+  pod-zalog-pts/sankt-peterburg/
+  pod-zalog-pts/novosibirsk/
+```
+
+Такая сетка дает 15 страниц для проверки:
+
+- 1 главная;
+- 1 продуктовая;
+- 3 интентные;
+- 3 гео продукта;
+- 9 гео-интентных.
+
+Матрица `интент x город`:
+
+| Интент | Москва | Санкт-Петербург | Новосибирск |
+| --- | --- | --- | --- |
+| На карту | `/zaimy/na-kartu/moskva/` | `/zaimy/na-kartu/sankt-peterburg/` | `/zaimy/na-kartu/novosibirsk/` |
+| Без процентов | `/zaimy/bez-procentov/moskva/` | `/zaimy/bez-procentov/sankt-peterburg/` | `/zaimy/bez-procentov/novosibirsk/` |
+| Под залог ПТС | `/zaimy/pod-zalog-pts/moskva/` | `/zaimy/pod-zalog-pts/sankt-peterburg/` | `/zaimy/pod-zalog-pts/novosibirsk/` |
+
+Что на ней проверяем:
+
+- как страница продукта ведет в интенты и города;
+- как интентная страница отличается от обычного фильтра;
+- какие данные нужны карточке МФО, чтобы она попадала на нужные витрины;
+- как выглядит городская версия без лишнего усложнения;
+- где нужна уникальная локальная польза, а где хватает общей витрины с городским фильтром.
+
 ## Рыночный инвентарь
 
 Полный список найденных слагов лежит в:
