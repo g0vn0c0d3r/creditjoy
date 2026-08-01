@@ -8,7 +8,7 @@
 
 Полный план лежит в `planning/project.md`.
 
-Сейчас фокус: разложить найденные URL конкурентов по уникальным группам интентов. Решения по MVP-слагам принимаем после этого.
+Сейчас фокус: выбрать структуру продукта `займы` на основе собранных конкурентных слагов. Решения по MVP-слагам принимаем после просмотра полного списка.
 
 ## Структура проекта
 
@@ -35,6 +35,7 @@ creditjoy/
 
     keywords.csv
     competitor-loan-urls.csv
+    competitor-loan-slugs.csv
 
   scripts/
     build-keywords.mjs
@@ -49,6 +50,7 @@ creditjoy/
 - `data/raw/wordcraft/` - исходные Excel-файлы Wordcraft.
 - `data/keywords.csv` - главный рабочий файл со всеми словами.
 - `data/competitor-loan-urls.csv` - сырая выгрузка найденных URL конкурентов по займам.
+- `data/competitor-loan-slugs.csv` - простой список уникальных рыночных слагов по займам: направление, интент, слаг, конкуренты, примеры URL.
 - `scripts/build-keywords.mjs` - скрипт, который пересобирает `data/keywords.csv` из исходных Excel-файлов.
 
 ## Семантика
