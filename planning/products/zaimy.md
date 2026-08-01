@@ -51,31 +51,15 @@
 
 ```text
 /
-  главная страница
-
-/zaimy/
-  страница продукта
-
-/zaimy/na-kartu/
-/zaimy/bez-procentov/
-/zaimy/pod-zalog-pts/
-  страницы интентов
-
-/zaimy/moskva/
-  гео-страница продукта
-
-/zaimy/na-kartu/moskva/
-/zaimy/pod-zalog-pts/moskva/
-  гео-страницы интентов
-
-/companies/{slug}/
-  карточки компаний
-
-/blog/{slug}/
-  блог и справка
-
-/calculators/{slug}/
-  калькуляторы и сервисы
+|-- /zaimy/ - страница продукта
+|   |-- /zaimy/{intent}/ - страница интента
+|   |   `-- /zaimy/{intent}/{city}/ - гео-страница интента
+|   |
+|   `-- /zaimy/{city}/ - гео-страница продукта
+|
+|-- /companies/{slug}/ - карточка компании
+|-- /blog/{slug}/ - блог или справка
+`-- /calculators/{slug}/ - калькулятор или сервис
 ```
 
 | Тип страницы | URL | Что на странице | Пример у конкурентов |
@@ -92,14 +76,14 @@
 Гео не усложняем: город просто добавляется к уже понятной странице.
 
 ```text
-/zaimy/                         все займы
-/zaimy/moskva/                  все займы в Москве
-
-/zaimy/na-kartu/                займы на карту
-/zaimy/na-kartu/moskva/         займы на карту в Москве
-
-/zaimy/pod-zalog-pts/           займы под залог ПТС
-/zaimy/pod-zalog-pts/moskva/    займы под залог ПТС в Москве
+/zaimy/ - все займы
+|-- /zaimy/moskva/ - все займы в Москве
+|
+|-- /zaimy/na-kartu/ - займы на карту
+|   `-- /zaimy/na-kartu/moskva/ - займы на карту в Москве
+|
+`-- /zaimy/pod-zalog-pts/ - займы под залог ПТС
+    `-- /zaimy/pod-zalog-pts/moskva/ - займы под залог ПТС в Москве
 ```
 
 ## Пред-MVP структура для отработки
