@@ -8,7 +8,7 @@
 
 Полный план лежит в `planning/project.md`.
 
-Сейчас фокус: выбрать структуру продукта `займы` на основе собранных конкурентных слагов. Решения по MVP-слагам принимаем после просмотра полного списка.
+Сейчас фокус: выбрать MVP-слаги по займам из полного конкурентного списка.
 
 ## Структура проекта
 
@@ -20,7 +20,8 @@ creditjoy/
     project.md
 
     products/
-      zaimy.md
+      zaimy-structure.md
+      zaimy-landings.md
 
     semantics/
       keyword-processing.md
@@ -44,7 +45,8 @@ creditjoy/
 ## Главные файлы
 
 - `planning/project.md` - единый верхний файл: план запуска, стратегия, типы страниц, конкуренты и что у них собираем.
-- `planning/products/zaimy.md` - рабочий файл продукта `займы`: модель, направления лендингов и группы интентов для проверки у конкурентов.
+- `planning/products/zaimy-structure.md` - схема продукта `займы`: URL, масштабирование, интенты, гео и рыночный инвентарь.
+- `planning/products/zaimy-landings.md` - типы лендингов по займам и что должно быть на каждой странице.
 - `planning/semantics/keyword-processing.md` - как собирается единый файл запросов.
 - `planning/semantics/keyword-mapping.md` - как привязываем запросы к выбранным слагам и отсекаем лишнее.
 - `data/raw/wordcraft/` - исходные Excel-файлы Wordcraft.
