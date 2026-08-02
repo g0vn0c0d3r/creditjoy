@@ -6,7 +6,7 @@
 
 ## План запуска
 
-Полный план лежит в `planning/project.md`.
+Полный план лежит в `ROADMAP.md`.
 
 Сейчас фокус: выбрать MVP-слаги по займам из полного конкурентного списка.
 
@@ -15,10 +15,9 @@
 ```text
 creditjoy/
   README.md
+  ROADMAP.md
 
   planning/
-    project.md
-
     products/
       zaimy-structure.md
       zaimy-landings.md
@@ -44,7 +43,7 @@ creditjoy/
 
 ## Главные файлы
 
-- `planning/project.md` - единый верхний файл: план запуска, стратегия, типы страниц, конкуренты и что у них собираем.
+- `ROADMAP.md` - план запуска, стратегия, общая модель страниц, конкуренты и текущий фокус.
 - `planning/products/zaimy-structure.md` - схема продукта `займы`: URL, масштабирование, интенты, гео и рыночный инвентарь.
 - `planning/products/zaimy-landings.md` - типы лендингов по займам и что должно быть на каждой странице.
 - `planning/semantics/keyword-processing.md` - как собирается единый файл запросов.
