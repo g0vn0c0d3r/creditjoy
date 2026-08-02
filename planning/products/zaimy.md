@@ -77,60 +77,90 @@
 
 ## Пред-MVP структура для отработки
 
-Это не финальный MVP и не решение по запуску. Это маленькая стартовая сетка, на которой удобно отработать структуру страниц, фильтры, карточки офферов, перелинковку и текстовые блоки.
+Это не финальный MVP и не решение по запуску. Это тестовая сетка, на которой удобно отработать структуру страниц, фильтры, карточки офферов, перелинковку и текстовые блоки.
 
 Берем:
 
 - 1 продукт: `займы`;
-- 3 интента: `na-kartu`, `bez-procentov`, `pod-zalog-pts`;
-- 3 города: `moskva`, `sankt-peterburg`, `novosibirsk`.
+- 5 интентов: `na-kartu`, `bez-procentov`, `s-plohoy-kreditnoy-istoriey`, `pod-zalog-pts`, `pod-zalog-nedvizhimosti`;
+- 5 городов: `moskva`, `sankt-peterburg`, `novosibirsk`, `ekaterinburg`, `kazan`.
 
 Почему эти интенты:
 
 - `na-kartu` - самый понятный способ получения денег;
 - `bez-procentov` - сильный коммерческий интент по условию;
-- `pod-zalog-pts` - отдельная залоговая ветка, чтобы сразу проверить, как живет более сложный продуктовый сценарий.
+- `s-plohoy-kreditnoy-istoriey` - сложный заемщик и отдельная логика доверия;
+- `pod-zalog-pts` - залоговая ветка по авто/ПТС;
+- `pod-zalog-nedvizhimosti` - второй залоговый сценарий с другой структурой условий.
 
-Дерево с линиями и полными путями:
+Пример URL-сетки:
 
 ```text
-/
-`-- /zaimy/ - продукт
-    |-- /zaimy/moskva/ - гео продукта
-    |-- /zaimy/sankt-peterburg/ - гео продукта
-    |-- /zaimy/novosibirsk/ - гео продукта
-    |
-    |-- /zaimy/na-kartu/ - интент
-    |   |-- /zaimy/na-kartu/moskva/ - интент + город
-    |   |-- /zaimy/na-kartu/sankt-peterburg/ - интент + город
-    |   `-- /zaimy/na-kartu/novosibirsk/ - интент + город
-    |
-    |-- /zaimy/bez-procentov/ - интент
-    |   |-- /zaimy/bez-procentov/moskva/ - интент + город
-    |   |-- /zaimy/bez-procentov/sankt-peterburg/ - интент + город
-    |   `-- /zaimy/bez-procentov/novosibirsk/ - интент + город
-    |
-    `-- /zaimy/pod-zalog-pts/ - интент
-        |-- /zaimy/pod-zalog-pts/moskva/ - интент + город
-        |-- /zaimy/pod-zalog-pts/sankt-peterburg/ - интент + город
-        `-- /zaimy/pod-zalog-pts/novosibirsk/ - интент + город
+/zaimy/ - продукт
+|-- /zaimy/moskva/ - гео продукта
+|-- /zaimy/sankt-peterburg/ - гео продукта
+|-- /zaimy/novosibirsk/ - гео продукта
+|-- /zaimy/ekaterinburg/ - гео продукта
+|-- /zaimy/kazan/ - гео продукта
+|
+|-- /zaimy/na-kartu/ - интент
+|   |-- /zaimy/na-kartu/moskva/ - интент + город
+|   |-- /zaimy/na-kartu/sankt-peterburg/ - интент + город
+|   |-- /zaimy/na-kartu/novosibirsk/ - интент + город
+|   |-- /zaimy/na-kartu/ekaterinburg/ - интент + город
+|   `-- /zaimy/na-kartu/kazan/ - интент + город
+|
+|-- /zaimy/bez-procentov/ - интент
+|   |-- /zaimy/bez-procentov/moskva/ - интент + город
+|   |-- /zaimy/bez-procentov/sankt-peterburg/ - интент + город
+|   |-- /zaimy/bez-procentov/novosibirsk/ - интент + город
+|   |-- /zaimy/bez-procentov/ekaterinburg/ - интент + город
+|   `-- /zaimy/bez-procentov/kazan/ - интент + город
+|
+|-- /zaimy/s-plohoy-kreditnoy-istoriey/ - интент
+|   |-- /zaimy/s-plohoy-kreditnoy-istoriey/moskva/ - интент + город
+|   |-- /zaimy/s-plohoy-kreditnoy-istoriey/sankt-peterburg/ - интент + город
+|   |-- /zaimy/s-plohoy-kreditnoy-istoriey/novosibirsk/ - интент + город
+|   |-- /zaimy/s-plohoy-kreditnoy-istoriey/ekaterinburg/ - интент + город
+|   `-- /zaimy/s-plohoy-kreditnoy-istoriey/kazan/ - интент + город
+|
+|-- /zaimy/pod-zalog-pts/ - интент
+|   |-- /zaimy/pod-zalog-pts/moskva/ - интент + город
+|   |-- /zaimy/pod-zalog-pts/sankt-peterburg/ - интент + город
+|   |-- /zaimy/pod-zalog-pts/novosibirsk/ - интент + город
+|   |-- /zaimy/pod-zalog-pts/ekaterinburg/ - интент + город
+|   `-- /zaimy/pod-zalog-pts/kazan/ - интент + город
+|
+`-- /zaimy/pod-zalog-nedvizhimosti/ - интент
+    |-- /zaimy/pod-zalog-nedvizhimosti/moskva/ - интент + город
+    |-- /zaimy/pod-zalog-nedvizhimosti/sankt-peterburg/ - интент + город
+    |-- /zaimy/pod-zalog-nedvizhimosti/novosibirsk/ - интент + город
+    |-- /zaimy/pod-zalog-nedvizhimosti/ekaterinburg/ - интент + город
+    `-- /zaimy/pod-zalog-nedvizhimosti/kazan/ - интент + город
 ```
 
-Такая сетка дает 17 страниц для проверки:
+Формула расчета страниц без главной:
 
-- 1 главная;
-- 1 продуктовая;
-- 3 интентные;
-- 3 гео продукта;
-- 9 гео-интентных.
+```text
+1 продуктовая + I интентных + C гео продукта + I x C гео-интентных
+= 1 + I + C + I x C
+```
+
+Для этой сетки:
+
+```text
+1 + 5 + 5 + 5 x 5 = 36 страниц без главной
+```
 
 Матрица `интент x город`:
 
-| Интент | Москва | Санкт-Петербург | Новосибирск |
-| --- | --- | --- | --- |
-| На карту | `/zaimy/na-kartu/moskva/` | `/zaimy/na-kartu/sankt-peterburg/` | `/zaimy/na-kartu/novosibirsk/` |
-| Без процентов | `/zaimy/bez-procentov/moskva/` | `/zaimy/bez-procentov/sankt-peterburg/` | `/zaimy/bez-procentov/novosibirsk/` |
-| Под залог ПТС | `/zaimy/pod-zalog-pts/moskva/` | `/zaimy/pod-zalog-pts/sankt-peterburg/` | `/zaimy/pod-zalog-pts/novosibirsk/` |
+| Интент | Москва | Санкт-Петербург | Новосибирск | Екатеринбург | Казань |
+| --- | --- | --- | --- | --- | --- |
+| На карту | `/zaimy/na-kartu/moskva/` | `/zaimy/na-kartu/sankt-peterburg/` | `/zaimy/na-kartu/novosibirsk/` | `/zaimy/na-kartu/ekaterinburg/` | `/zaimy/na-kartu/kazan/` |
+| Без процентов | `/zaimy/bez-procentov/moskva/` | `/zaimy/bez-procentov/sankt-peterburg/` | `/zaimy/bez-procentov/novosibirsk/` | `/zaimy/bez-procentov/ekaterinburg/` | `/zaimy/bez-procentov/kazan/` |
+| С плохой КИ | `/zaimy/s-plohoy-kreditnoy-istoriey/moskva/` | `/zaimy/s-plohoy-kreditnoy-istoriey/sankt-peterburg/` | `/zaimy/s-plohoy-kreditnoy-istoriey/novosibirsk/` | `/zaimy/s-plohoy-kreditnoy-istoriey/ekaterinburg/` | `/zaimy/s-plohoy-kreditnoy-istoriey/kazan/` |
+| Под залог ПТС | `/zaimy/pod-zalog-pts/moskva/` | `/zaimy/pod-zalog-pts/sankt-peterburg/` | `/zaimy/pod-zalog-pts/novosibirsk/` | `/zaimy/pod-zalog-pts/ekaterinburg/` | `/zaimy/pod-zalog-pts/kazan/` |
+| Под залог недвижимости | `/zaimy/pod-zalog-nedvizhimosti/moskva/` | `/zaimy/pod-zalog-nedvizhimosti/sankt-peterburg/` | `/zaimy/pod-zalog-nedvizhimosti/novosibirsk/` | `/zaimy/pod-zalog-nedvizhimosti/ekaterinburg/` | `/zaimy/pod-zalog-nedvizhimosti/kazan/` |
 
 Что на ней проверяем:
 
