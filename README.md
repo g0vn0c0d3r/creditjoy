@@ -45,7 +45,7 @@ creditjoy/
 
 - `ROADMAP.md` - план запуска, стратегия, общая модель страниц, конкуренты и текущий фокус.
 - `planning/products/zaimy-structure.md` - схема продукта `займы`: URL, масштабирование, интенты, гео и ссылки на рыночный инвентарь.
-- `planning/products/zaimy-landings.md` - типы лендингов по займам и что должно быть на каждой странице.
+- `planning/products/zaimy-landings.md` - типы лендингов по займам, которые нужно проектировать.
 - `planning/semantics/keyword-processing.md` - как собирается единый файл запросов.
 - `planning/semantics/keyword-mapping.md` - как привязываем запросы к выбранным слагам и отсекаем лишнее.
 - `data/raw/wordcraft/` - исходные Excel-файлы Wordcraft.
