@@ -222,24 +222,15 @@ data/competitor-loan-urls.csv
 
 Список CSV - это не MVP, а инвентарь рынка для ручного выбора страниц.
 
-## Направления интентов
+## Где смотреть полный набор интентов
 
-Это карта рынка: какие типы посадочных используют конкуренты. Полный список не дублируем в документе, он лежит в `data/competitor-loan-slugs.csv`.
+В этом файле направления интентов не дублируем, чтобы схема продукта оставалась легкой.
 
-- Хаб и названия продукта - 9. Для CreditJoy: `/zaimy/`, микро-запросы как алиасы. Примеры: [Bankiros](https://bankiros.ru/zaymy), [Banki.ru](https://www.banki.ru/microloans/), [Finuslugi](https://finuslugi.ru/mikrozajmy).
-- Каталог, подбор, доверие - 16. Для CreditJoy: `/zaimy/luchshie/`, `/zaimy/proverennye/`. Примеры: [Brobank](https://brobank.ru/zajmy/luchshie/), [Bankiros](https://bankiros.ru/zaymy/proverennye).
-- Способ получения - 21. Для CreditJoy: `/zaimy/na-kartu/`, `/zaimy/nalichnymi/`. Примеры: [Bankiros](https://bankiros.ru/zaymy/na-kartu), [Brobank](https://brobank.ru/zajmy/nalichnymi/).
-- Карты и банки - 40. Для CreditJoy: `/zaimy/na-kartu-sberbanka/`, `/zaimy/na-kartu-mir/`. Примеры: [Brobank](https://brobank.ru/zajmy/na-kartu-sberbanka/), [Bankiros](https://bankiros.ru/zaymy/na-kartu-mir).
-- Цена и условия - 24. Для CreditJoy: `/zaimy/bez-procentov/`, `/zaimy/bez-podpisok/`. Примеры: [Brobank](https://brobank.ru/zajmy/bez-procentov/), [Finuslugi](https://finuslugi.ru/mikrozajmy/teg_bez_procentov).
-- Документы и проверки - 25. Для CreditJoy: `/zaimy/po-pasportu/`, `/zaimy/bez-spravok/`. Примеры: [Bankiros](https://bankiros.ru/zaymy/po-pasportu), [Brobank](https://brobank.ru/zajmy/bez-spravok/).
-- КИ и одобрение - 29. Для CreditJoy: `/zaimy/s-plohoy-kreditnoy-istoriey/`, `/zaimy/s-prosrochkami/`. Примеры: [Banki.ru](https://www.banki.ru/microloans/catalogue/zaymyi_s_plohoy_kreditnoy_istoriey/), [Brobank](https://brobank.ru/zajmy/s-prosrochkami/).
-- Скорость - 33. Для CreditJoy: `/zaimy/srochnye/`, `/zaimy/za-5-minut/`. Примеры: [Banki.ru](https://www.banki.ru/microloans/catalogue/byistryie_zaymyi/), [Bankiros](https://bankiros.ru/zaymy/za-5-minut).
-- Срок и погашение - 29. Для CreditJoy: `/zaimy/do-zarplaty/`, `/zaimy/na-mesyac/`. Примеры: [Brobank](https://brobank.ru/zajmy/do-zarplaty/), [Bankiros](https://bankiros.ru/zaymy/na-mesyac).
-- Сумма - 25. Для CreditJoy: `/zaimy/10000-rubley/`, `/zaimy/50000-rubley/`. Примеры: [Brobank](https://brobank.ru/zajmy/na-10000-rublej/), [Bankiros](https://bankiros.ru/zaymy/50000-rubley).
-- Заемщик - 20. Для CreditJoy: `/zaimy/pensioneram/`, `/zaimy/s-18-let/`. Примеры: [Brobank](https://brobank.ru/zajmy/pensioneram/), [Bankiros](https://bankiros.ru/zaymy/s-18-let).
-- Залог - 15. Для CreditJoy: `/zaimy/pod-zalog-pts/`, `/zaimy/pod-zalog-nedvizhimosti/`. Примеры: [Brobank](https://brobank.ru/zajmy/pod-zalog-pts/), [Bankiros](https://bankiros.ru/zaymy/pod-zalog-nedvizhimosti).
-- Гео - 4. Для CreditJoy: `/zaimy/moskva/`, `/zaimy/na-kartu/moskva/`. Примеры: [Sravni](https://www.sravni.ru/zaimy/moskva/), [Bankiros](https://bankiros.ru/zaymy/na-kartu/moskva).
-- Смешанные посадочные - 11. Для CreditJoy: `/zaimy/do-zarplaty-na-kartu/`, `/zaimy/srochnye-bez-procentov/`. Примеры: [Brobank](https://brobank.ru/zajmy/srochnye-bez-procentov/), [Zaim.com](https://zaim.com/zaimy-do-zarplaty-na-kartu/).
+- сводка направлений: `ROADMAP.md`, раздел `4.9. Направления лендингов`;
+- полный список уникальных слагов: `data/competitor-loan-slugs.csv`;
+- сырые URL конкурентов: `data/competitor-loan-urls.csv`.
+
+Здесь используем только принцип: любой выбранный интент ложится в `/zaimy/{intent}/`, а его городская версия - в `/zaimy/{intent}/{city}/`.
 
 ## Как делать лучше
 
