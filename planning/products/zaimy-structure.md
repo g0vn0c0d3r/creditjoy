@@ -4,19 +4,20 @@
 
 Дата: 2026-08-01.
 
-## Что решаем
+## Зачем файл
 
 `Займы` - первый коммерческий продукт CreditJoy.
 
-В этом файле фиксируем:
+Этот файл отвечает за схему продукта:
 
-- как будут устроены страницы продукта;
+- как устроены URL;
+- как продукт масштабируется через интенты и города;
 - какие направления лендингов нашли у конкурентов;
-- где лежит полный список рыночных слагов для ручного выбора.
+- где лежит полный рыночный список слагов для ручного выбора.
 
-Полный верхний план и конкурентный блок: `ROADMAP.md`.
+Содержание будущих лендингов: `planning/products/zaimy-landings.md`.
 
-Состав будущих лендингов и логика содержания страниц: `planning/products/zaimy-landings.md`.
+Верхний план проекта: `ROADMAP.md`.
 
 ## Главный принцип
 
@@ -47,7 +48,39 @@
 - запросы с этими словами потом привязываем к `/zaimy/` или к подходящим интентам;
 - отдельную страницу делаем только если позже увидим, что выдача, спрос и контент реально требуют отдельной витрины.
 
-## Структура страниц
+## Что нашли у конкурентов
+
+Общий рыночный паттерн:
+
+```text
+продукт -> интент -> гео -> оффер/компания -> доверие/FAQ/отзывы
+```
+
+Разница между конкурентами не в базовой логике, а в глубине матрицы и качестве страницы:
+
+- `Sravni.ru` - сильный продуктовый UX, короткая витрина, интенты, гео, заявка.
+- `Bankiros.ru` / `Myfin` - широкая SEO-матрица, длинный хвост, гео, справочники.
+- `Banki.ru` - доверие, отзывы, рейтинги, карточки компаний.
+- `Finuslugi.ru` - официальный тон, безопасность, проверка МФО, теговая модель.
+- `Brobank.ru` - подробные карточки офферов, готовые решения, много контента на страницах.
+- `Zaym.me` - самый большой пример масштабирования через `интент x город`.
+- `Zaim.com` - полезен как источник длинного SEO-хвоста, залогов и гео-комбинаций.
+- `Rus.credit` - полезен как пример слоя МФО, карточек компаний, отзывов и гео по компаниям.
+
+URL-подходы конкурентов:
+
+- `Sravni.ru`: `/zaimy/`, `/zaimy/na-kartu-onlain/`, `/zaimy/moskva/`.
+- `Bankiros.ru`: `/zaymy`, `/zaymy/na-kartu`, `/zaymy/na-kartu/moskva`.
+- `Banki.ru`: `/microloans/`, `/microloans/catalogue/{intent}/`, `/microloans/catalogue/{intent}/{city}/`.
+- `Finuslugi.ru`: `/mikrozajmy`, `/mikrozajmy/teg_{intent}`, `/mikrozajmy/reg_moskva`.
+- `Brobank.ru`: `/zajmy/online/`, `/zajmy/na-kartu/`, `/zajmy/pod-zalog-pts/`.
+- `Zaym.me`: `/zaimi`, `/zaimi/{city}`, `/zaimi/filter-{intent}`, `/zaimi/filter-{intent}/{city}`.
+- `Zaim.com`: человекочитаемые URL через `/zaimy-*`, `/zaymy-*`, города, залоги, суммы и сроки.
+- `Rus.credit`: `/microloans`, `/mfo`, `/mfo/{company}`, `/mfo/cities/{city}`.
+
+Вывод для CreditJoy: не изобретать новую структуру, а взять понятную модель `продукт -> интент -> город` и выигрывать за счет полезности страницы, прозрачности условий, фильтров, карточек компаний и перелинковки.
+
+## Общая схема CreditJoy
 
 Простая URL-логика: продукт сначала, потом интент, потом город.
 
@@ -64,20 +97,18 @@
 `-- /calculators/{slug}/ - калькулятор или сервис
 ```
 
-| Тип страницы | URL | Что на странице | Пример у конкурентов |
-| --- | --- | --- | --- |
-| Главная | `/` | Вход в CreditJoy и список продуктов. В MVP главный продукт - займы. Позже сюда добавятся валюты, карты, кредиты, блог, сервисы. | Общая логика маркетплейсов: с главной ведут в продуктовые разделы. |
-| Страница продукта | `/zaimy/` | Главный хаб: все займы, базовые фильтры, лучшие направления, компании, FAQ, переходы в интенты и города. | [Sravni: займы](https://www.sravni.ru/zaimy/), [Bankiros: займы](https://bankiros.ru/zaymy), [Banki.ru: microloans](https://www.banki.ru/microloans/) |
-| Страница интента | `/zaimy/{intent}/` | Одна понятная потребность: на карту, без процентов, с плохой КИ, под залог ПТС, пенсионерам, срочно. | [Brobank: на карту](https://brobank.ru/zajmy/na-kartu/), [Bankiros: без процентов](https://bankiros.ru/zaymy/bez-procentov), [Finuslugi: под залог ПТС](https://finuslugi.ru/mikrozajmy/teg_pod_zalog_pts) |
-| Гео продукта | `/zaimy/{city}/` | Все займы в городе: офферы, компании, условия, локальные переходы в интенты. | [Sravni: Москва](https://www.sravni.ru/zaimy/moskva/), [Finuslugi: Москва](https://finuslugi.ru/mikrozajmy/reg_moskva) |
-| Гео интента | `/zaimy/{intent}/{city}/` | Конкретный интент в городе: например займы на карту в Москве или под залог ПТС в СПб. | [Bankiros: на карту в Москве](https://bankiros.ru/zaymy/na-kartu/moskva), [Zaym.me: filter + city](https://zaym.me/zaimi/filter-zaim-na-kartu/moskva) |
-| Карточка компании | `/companies/{slug}/` | Данные МФО, условия, лицензия, отзывы, связанные витрины. | [Banki.ru: компании и отзывы](https://www.banki.ru/microloans/), [Rus.credit: МФО](https://rus.credit/mfo) |
-| Блог/справка | `/blog/{slug}/` | Материалы, которые помогают коммерческим страницам: условия, риски, новости, разборы. | У Brobank и Banki.ru много контента вокруг продукта. |
-| Калькулятор/сервис | `/calculators/{slug}/` | Помощь в расчете переплаты, срока, платежа, сравнения условий. | У крупных конкурентов сервисные элементы усиливают витрину. |
+Как читать уровни:
 
-Гео не усложняем: город просто добавляется к уже понятной странице, например `/zaimy/moskva/`, `/zaimy/na-kartu/moskva/`, `/zaimy/pod-zalog-pts/moskva/`. Полная тестовая сетка ниже.
+- `/` - вход в проект и будущие продукты.
+- `/zaimy/` - главный хаб займов.
+- `/zaimy/{intent}/` - отдельный сценарий выбора: на карту, без процентов, с плохой КИ, под залог ПТС.
+- `/zaimy/{city}/` - все займы в конкретном городе.
+- `/zaimy/{intent}/{city}/` - конкретный сценарий в конкретном городе.
+- `/companies/{slug}/`, `/blog/{slug}/`, `/calculators/{slug}/` - поддерживающие слои вокруг коммерческих витрин.
 
-## Пред-MVP структура для отработки
+Гео не усложняем: город просто добавляется к уже понятной странице, например `/zaimy/moskva/`, `/zaimy/na-kartu/moskva/`, `/zaimy/pod-zalog-pts/moskva/`.
+
+## Пред-MVP пример: 5 интентов x 5 городов
 
 Это не финальный MVP и не решение по запуску. Это тестовая сетка, на которой удобно отработать структуру страниц, фильтры, карточки офферов, перелинковку и текстовые блоки.
 
@@ -154,21 +185,11 @@
 1 + 5 + 5 + 5 x 5 = 36 страниц без главной
 ```
 
-Матрица `интент x город`:
-
-| Интент | Москва | Санкт-Петербург | Новосибирск | Екатеринбург | Казань |
-| --- | --- | --- | --- | --- | --- |
-| На карту | `/zaimy/na-kartu/moskva/` | `/zaimy/na-kartu/sankt-peterburg/` | `/zaimy/na-kartu/novosibirsk/` | `/zaimy/na-kartu/ekaterinburg/` | `/zaimy/na-kartu/kazan/` |
-| Без процентов | `/zaimy/bez-procentov/moskva/` | `/zaimy/bez-procentov/sankt-peterburg/` | `/zaimy/bez-procentov/novosibirsk/` | `/zaimy/bez-procentov/ekaterinburg/` | `/zaimy/bez-procentov/kazan/` |
-| С плохой КИ | `/zaimy/s-plohoy-kreditnoy-istoriey/moskva/` | `/zaimy/s-plohoy-kreditnoy-istoriey/sankt-peterburg/` | `/zaimy/s-plohoy-kreditnoy-istoriey/novosibirsk/` | `/zaimy/s-plohoy-kreditnoy-istoriey/ekaterinburg/` | `/zaimy/s-plohoy-kreditnoy-istoriey/kazan/` |
-| Под залог ПТС | `/zaimy/pod-zalog-pts/moskva/` | `/zaimy/pod-zalog-pts/sankt-peterburg/` | `/zaimy/pod-zalog-pts/novosibirsk/` | `/zaimy/pod-zalog-pts/ekaterinburg/` | `/zaimy/pod-zalog-pts/kazan/` |
-| Под залог недвижимости | `/zaimy/pod-zalog-nedvizhimosti/moskva/` | `/zaimy/pod-zalog-nedvizhimosti/sankt-peterburg/` | `/zaimy/pod-zalog-nedvizhimosti/novosibirsk/` | `/zaimy/pod-zalog-nedvizhimosti/ekaterinburg/` | `/zaimy/pod-zalog-nedvizhimosti/kazan/` |
-
-Что на ней проверяем:
+Что проверяем на этой сетке:
 
 - как страница продукта ведет в интенты и города;
 - как интентная страница отличается от обычного фильтра;
-- какие данные нужны карточке МФО, чтобы она попадала на нужные витрины;
+- как карточка МФО попадает на нужные витрины;
 - как выглядит городская версия без лишнего усложнения;
 - где нужна уникальная локальная польза, а где хватает общей витрины с городским фильтром.
 
@@ -199,59 +220,26 @@ direction,intent,slug,competitors,urls,source_slugs
 data/competitor-loan-urls.csv
 ```
 
+Список CSV - это не MVP, а инвентарь рынка для ручного выбора страниц.
+
 ## Направления интентов
 
-Это не список страниц к запуску. Это карта рынка: какие типы посадочных используют конкуренты.
+Это карта рынка: какие типы посадочных используют конкуренты. Полный список не дублируем в документе, он лежит в `data/competitor-loan-slugs.csv`.
 
-Сводка по `data/competitor-loan-slugs.csv`:
-
-- Хаб и названия продукта - 9;
-- Каталог, подбор, доверие - 16;
-- Способ получения - 21;
-- Карты и банки - 40;
-- Цена и условия - 24;
-- Документы и проверки - 25;
-- КИ и одобрение - 29;
-- Скорость - 33;
-- Срок и погашение - 29;
-- Сумма - 25;
-- Заемщик - 20;
-- Залог - 15;
-- Гео - 4;
-- Смешанные посадочные - 11.
-
-Как читать таблицу ниже:
-
-- `Направление` - большая группа лендингов;
-- `Пример CreditJoy` - как такой интент может лечь в нашу URL-логику;
-- `Примеры у конкурентов` - реальные страницы, из которых взята логика.
-
-| Направление | Смысл | Пример CreditJoy | Примеры у конкурентов |
-| --- | --- | --- | --- |
-| Хаб и названия продукта | Общие страницы про займы и близкие названия продукта. | `/zaimy/`; микро-запросы как алиасы к продукту. | [Bankiros: займы](https://bankiros.ru/zaymy), [Banki.ru: microloans](https://www.banki.ru/microloans/), [Finuslugi: mikrozajmy](https://finuslugi.ru/mikrozajmy) |
-| Каталог, подбор, доверие | Лучшие, проверенные, надежные, МФО, отзывы, подбор. | `/zaimy/luchshie/`, `/zaimy/proverennye/` | [Brobank: лучшие](https://brobank.ru/zajmy/luchshie/), [Bankiros: проверенные](https://bankiros.ru/zaymy/proverennye) |
-| Способ получения | Куда или как человек хочет получить деньги. | `/zaimy/na-kartu/`, `/zaimy/nalichnymi/` | [Bankiros: на карту](https://bankiros.ru/zaymy/na-kartu), [Brobank: наличными](https://brobank.ru/zajmy/nalichnymi/) |
-| Карты и банки | Уточнение сценария "на карту": банк, платежная система, тип карты. | `/zaimy/na-kartu-sberbanka/`, `/zaimy/na-kartu-mir/` | [Brobank: Сбербанк](https://brobank.ru/zajmy/na-kartu-sberbanka/), [Bankiros: Мир](https://bankiros.ru/zaymy/na-kartu-mir) |
-| Цена и условия | Проценты, подписки, комиссии, страховки, первый займ бесплатно. | `/zaimy/bez-procentov/`, `/zaimy/bez-podpisok/` | [Brobank: без процентов](https://brobank.ru/zajmy/bez-procentov/), [Finuslugi: без процентов](https://finuslugi.ru/mikrozajmy/teg_bez_procentov) |
-| Документы и проверки | Что нужно для оформления и как проходит проверка. | `/zaimy/po-pasportu/`, `/zaimy/bez-spravok/` | [Bankiros: по паспорту](https://bankiros.ru/zaymy/po-pasportu), [Brobank: без справок](https://brobank.ru/zajmy/bez-spravok/) |
-| КИ и одобрение | Плохая КИ, просрочки, отказ, высокий шанс одобрения. | `/zaimy/s-plohoy-kreditnoy-istoriey/`, `/zaimy/s-prosrochkami/` | [Banki.ru: плохая КИ](https://www.banki.ru/microloans/catalogue/zaymyi_s_plohoy_kreditnoy_istoriey/), [Brobank: просрочки](https://brobank.ru/zajmy/s-prosrochkami/) |
-| Скорость | Срочно, быстро, моментально, круглосуточно, ночью. | `/zaimy/srochnye/`, `/zaimy/za-5-minut/` | [Banki.ru: быстрые](https://www.banki.ru/microloans/catalogue/byistryie_zaymyi/), [Bankiros: за 5 минут](https://bankiros.ru/zaymy/za-5-minut) |
-| Срок и погашение | На какой срок берут и как возвращают. | `/zaimy/do-zarplaty/`, `/zaimy/na-mesyac/` | [Brobank: до зарплаты](https://brobank.ru/zajmy/do-zarplaty/), [Bankiros: на месяц](https://bankiros.ru/zaymy/na-mesyac) |
-| Сумма | Конкретная сумма или размер займа. | `/zaimy/10000-rubley/`, `/zaimy/50000-rubley/` | [Brobank: 10000 рублей](https://brobank.ru/zajmy/na-10000-rublej/), [Bankiros: 50000 рублей](https://bankiros.ru/zaymy/50000-rubley) |
-| Заемщик | Кто берет займ: пенсионер, студент, ИП, самозанятый, иностранец, возраст. | `/zaimy/pensioneram/`, `/zaimy/s-18-let/` | [Brobank: пенсионерам](https://brobank.ru/zajmy/pensioneram/), [Bankiros: с 18 лет](https://bankiros.ru/zaymy/s-18-let) |
-| Залог | Есть ли обеспечение и какое именно. | `/zaimy/pod-zalog-pts/`, `/zaimy/pod-zalog-nedvizhimosti/` | [Brobank: ПТС](https://brobank.ru/zajmy/pod-zalog-pts/), [Bankiros: недвижимость](https://bankiros.ru/zaymy/pod-zalog-nedvizhimosti) |
-| Гео | Та же витрина, но под конкретный город. | `/zaimy/moskva/`, `/zaimy/na-kartu/moskva/` | [Sravni: Москва](https://www.sravni.ru/zaimy/moskva/), [Bankiros: на карту в Москве](https://bankiros.ru/zaymy/na-kartu/moskva) |
-| Смешанные посадочные | Два условия в одном слаге. Потом решаем, нужна ли отдельная страница. | `/zaimy/do-zarplaty-na-kartu/`, `/zaimy/srochnye-bez-procentov/` | [Brobank: срочные без процентов](https://brobank.ru/zajmy/srochnye-bez-procentov/), [Zaim.com: до зарплаты на карту](https://zaim.com/zaimy-do-zarplaty-na-kartu/) |
-
-## Что берем из конкурентов
-
-- `Bankiros.ru` / `Myfin` - референс по широкой матрице, гео и позднему входу на рынок.
-- `Brobank.ru` - референс по насыщенности коммерческих страниц контентом.
-- `Sravni.ru` - референс по короткой и понятной продуктовой витрине.
-- `Banki.ru` - референс по доверию, отзывам, компаниям и рейтинговости.
-- `Finuslugi.ru` - референс по аккуратной теговой модели и официальному тону.
-- `Zaym.me` - референс по масштабированию `интент x город`.
-- `Zaim.com` - референс по длинному SEO-хвосту, залогам и гео-комбинациям.
+- Хаб и названия продукта - 9. Для CreditJoy: `/zaimy/`, микро-запросы как алиасы. Примеры: [Bankiros](https://bankiros.ru/zaymy), [Banki.ru](https://www.banki.ru/microloans/), [Finuslugi](https://finuslugi.ru/mikrozajmy).
+- Каталог, подбор, доверие - 16. Для CreditJoy: `/zaimy/luchshie/`, `/zaimy/proverennye/`. Примеры: [Brobank](https://brobank.ru/zajmy/luchshie/), [Bankiros](https://bankiros.ru/zaymy/proverennye).
+- Способ получения - 21. Для CreditJoy: `/zaimy/na-kartu/`, `/zaimy/nalichnymi/`. Примеры: [Bankiros](https://bankiros.ru/zaymy/na-kartu), [Brobank](https://brobank.ru/zajmy/nalichnymi/).
+- Карты и банки - 40. Для CreditJoy: `/zaimy/na-kartu-sberbanka/`, `/zaimy/na-kartu-mir/`. Примеры: [Brobank](https://brobank.ru/zajmy/na-kartu-sberbanka/), [Bankiros](https://bankiros.ru/zaymy/na-kartu-mir).
+- Цена и условия - 24. Для CreditJoy: `/zaimy/bez-procentov/`, `/zaimy/bez-podpisok/`. Примеры: [Brobank](https://brobank.ru/zajmy/bez-procentov/), [Finuslugi](https://finuslugi.ru/mikrozajmy/teg_bez_procentov).
+- Документы и проверки - 25. Для CreditJoy: `/zaimy/po-pasportu/`, `/zaimy/bez-spravok/`. Примеры: [Bankiros](https://bankiros.ru/zaymy/po-pasportu), [Brobank](https://brobank.ru/zajmy/bez-spravok/).
+- КИ и одобрение - 29. Для CreditJoy: `/zaimy/s-plohoy-kreditnoy-istoriey/`, `/zaimy/s-prosrochkami/`. Примеры: [Banki.ru](https://www.banki.ru/microloans/catalogue/zaymyi_s_plohoy_kreditnoy_istoriey/), [Brobank](https://brobank.ru/zajmy/s-prosrochkami/).
+- Скорость - 33. Для CreditJoy: `/zaimy/srochnye/`, `/zaimy/za-5-minut/`. Примеры: [Banki.ru](https://www.banki.ru/microloans/catalogue/byistryie_zaymyi/), [Bankiros](https://bankiros.ru/zaymy/za-5-minut).
+- Срок и погашение - 29. Для CreditJoy: `/zaimy/do-zarplaty/`, `/zaimy/na-mesyac/`. Примеры: [Brobank](https://brobank.ru/zajmy/do-zarplaty/), [Bankiros](https://bankiros.ru/zaymy/na-mesyac).
+- Сумма - 25. Для CreditJoy: `/zaimy/10000-rubley/`, `/zaimy/50000-rubley/`. Примеры: [Brobank](https://brobank.ru/zajmy/na-10000-rublej/), [Bankiros](https://bankiros.ru/zaymy/50000-rubley).
+- Заемщик - 20. Для CreditJoy: `/zaimy/pensioneram/`, `/zaimy/s-18-let/`. Примеры: [Brobank](https://brobank.ru/zajmy/pensioneram/), [Bankiros](https://bankiros.ru/zaymy/s-18-let).
+- Залог - 15. Для CreditJoy: `/zaimy/pod-zalog-pts/`, `/zaimy/pod-zalog-nedvizhimosti/`. Примеры: [Brobank](https://brobank.ru/zajmy/pod-zalog-pts/), [Bankiros](https://bankiros.ru/zaymy/pod-zalog-nedvizhimosti).
+- Гео - 4. Для CreditJoy: `/zaimy/moskva/`, `/zaimy/na-kartu/moskva/`. Примеры: [Sravni](https://www.sravni.ru/zaimy/moskva/), [Bankiros](https://bankiros.ru/zaymy/na-kartu/moskva).
+- Смешанные посадочные - 11. Для CreditJoy: `/zaimy/do-zarplaty-na-kartu/`, `/zaimy/srochnye-bez-procentov/`. Примеры: [Brobank](https://brobank.ru/zajmy/srochnye-bez-procentov/), [Zaim.com](https://zaim.com/zaimy-do-zarplaty-na-kartu/).
 
 ## Как делать лучше
 
@@ -262,6 +250,8 @@ data/competitor-loan-urls.csv
 - объяснение рисков без воды;
 - нормальные карточки компаний;
 - связка витрины, компании, FAQ, отзывов, блога и калькуляторов.
+
+Подробно содержание лендингов описано в `planning/products/zaimy-landings.md`.
 
 ## Следующий шаг
 
