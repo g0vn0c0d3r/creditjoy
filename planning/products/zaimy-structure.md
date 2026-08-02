@@ -242,4 +242,4 @@ data/competitor-loan-urls.csv
 
 ## Следующий шаг
 
-Выбрать MVP-слаги из `data/competitor-loan-slugs.csv`: сначала продуктовый хаб, потом самые сильные интенты, потом первые гео-страницы. После этого привязать к выбранным страницам запросы из `data/keywords.csv`.
+Дальше в `planning/products/zaimy-landings.md`: добить структуры ключевых лендингов. После этого выбрать MVP-слаги из `data/competitor-loan-slugs.csv` и привязать к ним запросы из `data/keywords.csv`.
