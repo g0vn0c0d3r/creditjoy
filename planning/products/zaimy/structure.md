@@ -13,11 +13,21 @@
 - как устроены URL;
 - как продукт масштабируется через интенты и города;
 - какие структурные выводы дали конкуренты;
-- где лежит полный рыночный список слагов для ручного выбора.
+- где лежит полный рыночный список слагов для ручного выбора;
+- где лежат отдельные файлы лендингов.
 
-Типы будущих лендингов: `planning/products/zaimy-landings.md`.
+Файлы лендингов лежат в `planning/products/zaimy/landings/`.
 
 Верхний план проекта: `ROADMAP.md`.
+
+## Файлы лендингов
+
+| Лендинг | Файл | Статус |
+| --- | --- | --- |
+| `/zaimy/` | `planning/products/zaimy/landings/product.md` | согласован |
+| `/zaimy/{intent}/` | `planning/products/zaimy/landings/intent.md` | следующий |
+| `/zaimy/{city}/` | `planning/products/zaimy/landings/geo.md` | позже |
+| `/zaimy/{intent}/{city}/` | `planning/products/zaimy/landings/intent-city.md` | позже |
 
 ## Главный принцип
 
@@ -238,8 +248,8 @@ data/competitor-loan-urls.csv
 - нормальные карточки компаний;
 - связка витрины, компании, FAQ, отзывов, блога и калькуляторов.
 
-Типы лендингов для разработки зафиксированы в `planning/products/zaimy-landings.md`.
+Структуры лендингов для разработки лежат отдельными файлами в `planning/products/zaimy/landings/`.
 
 ## Следующий шаг
 
-Дальше в `planning/products/zaimy-landings.md`: добить структуры ключевых лендингов. После этого выбрать MVP-слаги из `data/competitor-loan-slugs.csv` и привязать к ним запросы из `data/keywords.csv`.
+Дальше: создать `planning/products/zaimy/landings/intent.md` и набросать структуру `/zaimy/{intent}/`. После этого выбрать MVP-слаги из `data/competitor-loan-slugs.csv` и привязать к ним запросы из `data/keywords.csv`.

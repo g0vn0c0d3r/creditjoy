@@ -8,7 +8,7 @@
 
 Полный план лежит в `ROADMAP.md`.
 
-Сейчас фокус: добить структуры ключевых лендингов по займам, затем выбрать MVP-слаги из полного конкурентного списка.
+Сейчас фокус: структура `/zaimy/` согласована, дальше проектируем `/zaimy/{intent}/`, затем выбираем MVP-слаги из полного конкурентного списка.
 
 ## Структура проекта
 
@@ -19,8 +19,13 @@ creditjoy/
 
   planning/
     products/
-      zaimy-structure.md
-      zaimy-landings.md
+      zaimy/
+        structure.md
+        landings/
+          product.md
+          intent.md
+          geo.md
+          intent-city.md
 
     semantics/
       keyword-processing.md
@@ -44,8 +49,9 @@ creditjoy/
 ## Главные файлы
 
 - `ROADMAP.md` - план запуска, стратегия, общая модель страниц, конкуренты и текущий фокус.
-- `planning/products/zaimy-structure.md` - схема продукта `займы`: URL, масштабирование, интенты, гео и ссылки на рыночный инвентарь.
-- `planning/products/zaimy-landings.md` - типы лендингов по займам, которые нужно проектировать.
+- `planning/products/zaimy/structure.md` - схема продукта `займы`: URL, масштабирование, интенты, гео, ссылки на лендинги и рыночный инвентарь.
+- `planning/products/zaimy/landings/` - отдельные файлы по типам лендингов продукта `займы`.
+- `planning/products/zaimy/landings/product.md` - согласованная структура продуктовой страницы `/zaimy/`.
 - `planning/semantics/keyword-processing.md` - как собирается единый файл запросов.
 - `planning/semantics/keyword-mapping.md` - как привязываем запросы к выбранным слагам и отсекаем лишнее.
 - `data/raw/wordcraft/` - исходные Excel-файлы Wordcraft.
