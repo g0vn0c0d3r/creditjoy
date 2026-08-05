@@ -12,7 +12,7 @@
 
 Связанные файлы:
 
-- `planning/products/zaimy/structure.md` - логика продукта, URL, масштабирование и ссылки на лендинги.
-- `planning/products/zaimy/landings/product.md` - согласованная структура продуктовой страницы `/zaimy/`.
+- `products/zaimy/structure.md` - логика продукта, URL, масштабирование и ссылки на лендинги.
+- `products/zaimy/landings/product.md` - согласованная структура продуктовой страницы `/zaimy/`.
 - `data/competitor-loan-slugs.csv` - полный рыночный список найденных слагов.
 - `data/keywords.csv` - семантика для привязки к выбранным лендингам.

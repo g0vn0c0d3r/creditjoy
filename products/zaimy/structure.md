@@ -16,7 +16,7 @@
 - где лежит полный рыночный список слагов для ручного выбора;
 - где лежат отдельные файлы лендингов.
 
-Файлы лендингов лежат в `planning/products/zaimy/landings/`.
+Файлы лендингов лежат в `products/zaimy/landings/`.
 
 Верхний план проекта: `ROADMAP.md`.
 
@@ -24,10 +24,10 @@
 
 | Лендинг | Файл | Статус |
 | --- | --- | --- |
-| `/zaimy/` | `planning/products/zaimy/landings/product.md` | согласован |
-| `/zaimy/{intent}/` | `planning/products/zaimy/landings/intent.md` | следующий |
-| `/zaimy/{city}/` | `planning/products/zaimy/landings/geo.md` | позже |
-| `/zaimy/{intent}/{city}/` | `planning/products/zaimy/landings/intent-city.md` | позже |
+| `/zaimy/` | `products/zaimy/landings/product.md` | согласован |
+| `/zaimy/{intent}/` | `products/zaimy/landings/intent.md` | следующий |
+| `/zaimy/{city}/` | `products/zaimy/landings/geo.md` | позже |
+| `/zaimy/{intent}/{city}/` | `products/zaimy/landings/intent-city.md` | позже |
 
 ## Главный принцип
 
@@ -88,7 +88,7 @@ URL-подходы конкурентов:
 - `Zaim.com`: человекочитаемые URL через `/zaimy-*`, `/zaymy-*`, города, залоги, суммы и сроки.
 - `Rus.credit`: `/microloans`, `/mfo`, `/mfo/{company}`, `/mfo/cities/{city}`.
 
-Вывод для CreditJoy: не изобретать новую структуру, а взять понятную модель `продукт -> интент -> город` и выигрывать за счет полезности страницы, прозрачности условий, фильтров, карточек компаний и перелинковки.
+Вывод для CreditJoy: не изобретать новую структуру, а взять понятную модель `продукт -> интент -> город` и выигрывать за счет полезности страницы, понятной стоимости, условий, карточек компаний и перелинковки.
 
 ## Общая схема CreditJoy
 
@@ -117,6 +117,23 @@ URL-подходы конкурентов:
 - `/companies/{slug}/`, `/blog/{slug}/`, `/calculators/{slug}/` - поддерживающие слои вокруг коммерческих витрин.
 
 Гео не усложняем: город просто добавляется к уже понятной странице, например `/zaimy/moskva/`, `/zaimy/na-kartu/moskva/`, `/zaimy/pod-zalog-pts/moskva/`.
+
+Отдельные интенты по гражданству и статусу заемщика тоже ложатся в `/zaimy/{intent}/`:
+
+```text
+|-- /zaimy/dlya-grazhdan-sng/
+|-- /zaimy/inostrannym-grazhdanam/
+|-- /zaimy/grazhdanam-uzbekistana/
+|-- /zaimy/grazhdanam-tadzhikistana/
+|-- /zaimy/grazhdanam-kirgizii/
+|-- /zaimy/grazhdanam-kazahstana/
+|-- /zaimy/grazhdanam-armenii/
+|-- /zaimy/grazhdanam-belarusi/
+|-- /zaimy/migrantam/
+`-- /zaimy/nerezidentam/ - кандидат-алиас к иностранным гражданам, проверяем по семантике
+```
+
+Для этих страниц потом отдельно продумываем требования и документы: миграционная карта, регистрация в РФ, РВП/ВНЖ, патент и документы конкретной страны.
 
 ## Пред-MVP пример: 5 интентов x 5 городов
 
@@ -248,8 +265,8 @@ data/competitor-loan-urls.csv
 - нормальные карточки компаний;
 - связка витрины, компании, FAQ, отзывов, блога и калькуляторов.
 
-Структуры лендингов для разработки лежат отдельными файлами в `planning/products/zaimy/landings/`.
+Структуры лендингов для разработки лежат отдельными файлами в `products/zaimy/landings/`.
 
 ## Следующий шаг
 
-Дальше: создать `planning/products/zaimy/landings/intent.md` и набросать структуру `/zaimy/{intent}/`. После этого выбрать MVP-слаги из `data/competitor-loan-slugs.csv` и привязать к ним запросы из `data/keywords.csv`.
+Дальше: наполнить `products/zaimy/landings/intent.md` и набросать структуру `/zaimy/{intent}/`. После этого выбрать MVP-слаги из `data/competitor-loan-slugs.csv` и привязать к ним запросы из `data/keywords.csv`.

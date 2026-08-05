@@ -12,7 +12,7 @@
 
 Связанные файлы:
 
-- `planning/products/zaimy/structure.md` - логика продукта, URL, масштабирование и ссылки на лендинги.
+- `products/zaimy/structure.md` - логика продукта, URL, масштабирование и ссылки на лендинги.
 - `ROADMAP.md` - верхний план, стратегия и конкуренты.
 - `data/competitor-loan-slugs.csv` - полный рыночный список найденных слагов.
 - `data/keywords.csv` - семантика для привязки к выбранным лендингам.
@@ -204,4 +204,4 @@
 
 ## Следующий шаг
 
-Дальше создаем отдельный файл для `/zaimy/{intent}/`: `planning/products/zaimy/landings/intent.md`.
+Дальше наполняем отдельный файл для `/zaimy/{intent}/`: `products/zaimy/landings/intent.md`.

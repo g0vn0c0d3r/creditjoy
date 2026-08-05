@@ -17,19 +17,18 @@ creditjoy/
   README.md
   ROADMAP.md
 
-  planning/
-    products/
-      zaimy/
-        structure.md
-        landings/
-          product.md
-          intent.md
-          geo.md
-          intent-city.md
+  products/
+    zaimy/
+      structure.md
+      landings/
+        product.md
+        intent.md
+        geo.md
+        intent-city.md
 
-    semantics/
-      keyword-processing.md
-      keyword-mapping.md
+  semantics/
+    keyword-processing.md
+    keyword-mapping.md
 
   data/
     raw/
@@ -49,11 +48,11 @@ creditjoy/
 ## Главные файлы
 
 - `ROADMAP.md` - план запуска, стратегия, общая модель страниц, конкуренты и текущий фокус.
-- `planning/products/zaimy/structure.md` - схема продукта `займы`: URL, масштабирование, интенты, гео, ссылки на лендинги и рыночный инвентарь.
-- `planning/products/zaimy/landings/` - отдельные файлы по типам лендингов продукта `займы`.
-- `planning/products/zaimy/landings/product.md` - согласованная структура продуктовой страницы `/zaimy/`.
-- `planning/semantics/keyword-processing.md` - как собирается единый файл запросов.
-- `planning/semantics/keyword-mapping.md` - как привязываем запросы к выбранным слагам и отсекаем лишнее.
+- `products/zaimy/structure.md` - схема продукта `займы`: URL, масштабирование, интенты, гео, ссылки на лендинги и рыночный инвентарь.
+- `products/zaimy/landings/` - отдельные файлы по типам лендингов продукта `займы`.
+- `products/zaimy/landings/product.md` - согласованная структура продуктовой страницы `/zaimy/`.
+- `semantics/keyword-processing.md` - как собирается единый файл запросов.
+- `semantics/keyword-mapping.md` - как привязываем запросы к выбранным слагам и отсекаем лишнее.
 - `data/raw/wordcraft/` - исходные Excel-файлы Wordcraft.
 - `data/keywords.csv` - главный рабочий файл со всеми словами.
 - `data/competitor-loan-urls.csv` - сырая выгрузка найденных URL конкурентов по займам.
