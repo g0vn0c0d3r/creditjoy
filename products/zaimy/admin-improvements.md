@@ -6,11 +6,11 @@
 
 Раздел `Основное`, где сейчас находится `H1`:
 
-![H1 в разделе Основное](assets/page-constructor/task-01-basic-h1.png)
+![H1 в разделе Основное](assets/task-01-basic-h1.png)
 
 Блок `Первый экран`, где сейчас есть поле `Заголовок блока`:
 
-![Заголовок блока в первом экране](assets/page-constructor/task-01-hero-block-title.png)
+![Заголовок блока в первом экране](assets/task-01-hero-block-title.png)
 
 ### Что не так сейчас
 
