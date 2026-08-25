@@ -34,7 +34,6 @@
 Для карточки компании:
 
 - `products/zaimy/landings/company/draft.md` — рабочая структура публичной страницы и схема сбора данных под каждый блок;
-- `products/zaimy/landings/company/template-draft.md` — неутверждённый шаблон будущего source pack;
 - `products/zaimy/landings/company/source-packs/README.md` — правила источников и формат импорта;
 - `products/zaimy/landings/company/source-packs/organizations/` — место для файлов конкретных МФО после утверждения шаблона.
 

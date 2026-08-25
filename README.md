@@ -40,7 +40,6 @@ creditjoy/
           planned.md
         company/
           draft.md
-          template-draft.md
           source-packs/
             README.md
             organizations/
@@ -54,7 +53,6 @@ creditjoy/
 - `products/zaimy/landings/README.md` - правила статусов и хранения материалов лендингов.
 - `products/zaimy/landings/product/final.md` - согласованная структура продуктовой страницы `/zaimy/`.
 - `products/zaimy/landings/company/draft.md` - рабочий набросок карточки МФО и схема данных.
-- `products/zaimy/landings/company/template-draft.md` - черновик будущего шаблона данных; до согласования не используется для импорта.
 - `products/zaimy/changes/README.md` - правила классификации правок админки и дизайна.
 - `products/zaimy/research/competitors/slugs.csv` - инвентарь слагов, собранный у конкурентов.
 - `products/zaimy/research/competitors/urls.csv` - полный список найденных URL конкурентов.
