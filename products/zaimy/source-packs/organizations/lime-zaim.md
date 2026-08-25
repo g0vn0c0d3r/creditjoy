@@ -7,8 +7,6 @@
 
 Источник 1. Главная страница:
 
-URL: https://www.lime-zaim.ru/
-
 Тип источника: официальный сайт
 
 Дата проверки: 2026-08-25
@@ -118,8 +116,6 @@ URL: https://www.lime-zaim.ru/
 
 Источник 2. Страница "О компании":
 
-URL: https://www.lime-zaim.ru/about
-
 Тип источника: официальный сайт
 
 Дата проверки: 2026-08-25
@@ -169,8 +165,6 @@ Email: support@lime-zaim.ru.
 
 
 Источник 3. Страница "Частые вопросы":
-
-URL: https://www.lime-zaim.ru/support
 
 Тип источника: официальный сайт / FAQ
 
@@ -234,8 +228,6 @@ URL: https://www.lime-zaim.ru/support
 
 Источник 4. Страница "Способы получения займа":
 
-URL: https://www.lime-zaim.ru/get-loan
-
 Тип источника: официальный сайт / справочная страница
 
 Дата проверки: 2026-08-25
@@ -252,8 +244,6 @@ URL: https://www.lime-zaim.ru/get-loan
 
 
 Источник 5. Страница "Возврат займа":
-
-URL: https://www.lime-zaim.ru/retrieve-loan
 
 Тип источника: официальный сайт / справочная страница
 
@@ -275,8 +265,6 @@ URL: https://www.lime-zaim.ru/retrieve-loan
 
 
 Источник 6. Страница "Документы":
-
-URL: https://www.lime-zaim.ru/documents
 
 Тип источника: официальный сайт / хранилище документов
 
@@ -307,8 +295,6 @@ URL: https://www.lime-zaim.ru/documents
 
 Источник 7. Уведомление о постановке на учёт в налоговом органе:
 
-URL: https://www.lime-zaim.ru/cmsApi/files/3674776e-e34a-4c3c-bb0d-d546ab3a4919
-
 Тип источника: официальный PDF, опубликованный на сайте организации
 
 Дата проверки: 2026-08-25
@@ -327,8 +313,6 @@ URL: https://www.lime-zaim.ru/cmsApi/files/3674776e-e34a-4c3c-bb0d-d546ab3a4919
 
 
 Источник 8. Страница "Раскрытие информации":
-
-URL: https://www.lime-zaim.ru/disclosure
 
 Тип источника: официальный сайт / раскрытие информации
 
@@ -371,7 +355,7 @@ Email: support@lime-zaim.ru.
 
 Источник 9. Банк России: карточка участника финансового рынка:
 
-URL: https://cbr.ru/finorg/foinfo/?ogrn=1137746831606
+Ссылка для записи в реестре: https://cbr.ru/finorg/foinfo/?ogrn=1137746831606
 
 Тип источника: Банк России
 
