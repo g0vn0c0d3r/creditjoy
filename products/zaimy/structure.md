@@ -34,8 +34,8 @@
 Для карточки компании:
 
 - `products/zaimy/landings/company/README.md` — структура публичной страницы и бриф сбора данных под каждый блок;
-- `products/zaimy/source-packs/README.md` — правила источников и формат импорта;
-- `products/zaimy/source-packs/organizations/` — готовые файлы конкретных МФО для загрузки в AI.
+- `products/zaimy/landings/company/source-packs/README.md` — правила источников и формат импорта;
+- `products/zaimy/landings/company/source-packs/organizations/` — готовые файлы конкретных МФО для загрузки в AI.
 
 `README.md` в папке каждого типа лендинга — единственный актуальный документ. Папки `materials/` и `drafts/` добавляем только вместе с реальными материалами.
 

@@ -37,9 +37,9 @@ creditjoy/
           README.md
         company/
           README.md
-      source-packs/
-        README.md
-        organizations/
+          source-packs/
+            README.md
+            organizations/
 ```
 
 ## Главные файлы
@@ -53,6 +53,6 @@ creditjoy/
 - `products/zaimy/changes/` - правки админки и дизайна для займов.
 - `products/zaimy/research/competitors/slugs.csv` - инвентарь слагов, собранный у конкурентов.
 - `products/zaimy/research/competitors/urls.csv` - полный список найденных URL конкурентов.
-- `products/zaimy/source-packs/README.md` - правила источников и формирования файлов для импорта в админку.
+- `products/zaimy/landings/company/source-packs/README.md` - правила источников и формирования файлов для импорта в админку.
 
 Материалы по ключам сейчас не ведём: для текущей работы достаточно структуры и исследования конкурентов.
