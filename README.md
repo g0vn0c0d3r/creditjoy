@@ -10,6 +10,7 @@ creditjoy/
 
   products/
     zaimy/
+      README.md
       roadmap.md
       structure.md
 
@@ -41,6 +42,7 @@ creditjoy/
 
 ## Главные файлы
 
+- `products/zaimy/README.md` - вход в текущий продукт и навигация по его материалам.
 - `products/zaimy/roadmap.md` - план работы по продукту и выводы из исследования рынка.
 - `products/zaimy/structure.md` - схема продукта `займы`: URL, масштабирование, интенты, гео, ссылки на лендинги и рыночный инвентарь.
 - `products/zaimy/landings/` - папки типов лендингов; `README.md` внутри каждой папки описывает структуру страницы.
