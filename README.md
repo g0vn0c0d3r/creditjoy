@@ -1,79 +1,54 @@
 # creditjoy
 
-Рабочий проект для анализа структуры финансовых маркетплейсов и подготовки SEO-архитектуры будущего сайта.
-
-Первый рабочий продукт - займы. Структуру строим от конкурентов, улучшения делаем только по делу, семантику привязываем к выбранным слагам после структуры. Сразу закладываем масштабирование на другие продукты: кредиты, карты, валюты, компании, блог и сервисные страницы.
-
-## План запуска
-
-Полный план лежит в `ROADMAP.md`.
-
-Сейчас фокус: вертикальный MVP - главная, `/zaimy/`, админка офферов и рабочая витрина. После проверки этой связки масштабируемся на `/zaimy/{intent}/`, гео и выбранные MVP-слаги.
+Рабочая база CreditJoy. Сейчас активен один продукт - `займы`.
 
 ## Структура проекта
 
 ```text
 creditjoy/
   README.md
-  ROADMAP.md
 
   products/
     zaimy/
+      roadmap.md
       structure.md
+
+      admin/
+        README.md
+        assets/
+
+      research/
+        competitors/
+          urls.csv
+          slugs.csv
       landings/
-        product.md
-        intent.md
-        geo.md
-        intent-city.md
-
-  semantics/
-    keyword-processing.md
-    keyword-mapping.md
-
-  data/
-    raw/
-      wordcraft/
-        wordcraft-zaim.xlsx
-        wordcraft-microzaim.xlsx
-        wordcraft-microcredit.xlsx
-
-    keywords.csv
-    competitor-loan-urls.csv
-    competitor-loan-slugs.csv
-
-  scripts/
-    build-keywords.mjs
+        product/
+          README.md
+          design.md
+          assets/
+        intent/
+          README.md
+        geo/
+          README.md
+        intent-city/
+          README.md
+        company/
+          README.md
+      source-packs/
+        README.md
+        organizations/
 ```
 
 ## Главные файлы
 
-- `ROADMAP.md` - план запуска, стратегия, общая модель страниц, конкуренты и текущий фокус.
+- `products/zaimy/roadmap.md` - план работы по продукту и выводы из исследования рынка.
 - `products/zaimy/structure.md` - схема продукта `займы`: URL, масштабирование, интенты, гео, ссылки на лендинги и рыночный инвентарь.
-- `products/zaimy/landings/` - отдельные файлы по типам лендингов продукта `займы`.
-- `products/zaimy/landings/product.md` - согласованная структура продуктовой страницы `/zaimy/`.
-- `semantics/keyword-processing.md` - как собирается единый файл запросов.
-- `semantics/keyword-mapping.md` - как привязываем запросы к выбранным слагам и отсекаем лишнее.
-- `data/raw/wordcraft/` - исходные Excel-файлы Wordcraft.
-- `data/keywords.csv` - главный рабочий файл со всеми словами.
-- `data/competitor-loan-urls.csv` - сырая выгрузка найденных URL конкурентов по займам.
-- `data/competitor-loan-slugs.csv` - простой список уникальных рыночных слагов по займам: направление, интент, слаг, конкуренты, примеры URL.
-- `scripts/build-keywords.mjs` - скрипт, который пересобирает `data/keywords.csv` из исходных Excel-файлов.
+- `products/zaimy/landings/` - папки типов лендингов; `README.md` внутри каждой папки описывает структуру страницы.
+- `products/zaimy/landings/product/README.md` - согласованная структура продуктовой страницы `/zaimy/`.
+- `products/zaimy/landings/company/README.md` - каркас карточки МФО и данные, которые нужны для каждого блока.
+- `products/zaimy/admin/README.md` - функциональные правки админки для займов.
+- `products/zaimy/research/competitors/slugs.csv` - инвентарь слагов, собранный у конкурентов.
+- `products/zaimy/research/competitors/urls.csv` - полный список найденных URL конкурентов.
+- `products/zaimy/source-packs/README.md` - правила источников и формирования файлов для импорта в админку.
 
-## Семантика
-
-`data/keywords.csv` - главный источник запросов. Он не задает структуру сайта сам по себе: сначала выбираем рабочие слаги на основе конкурентов, затем подбираем к ним ключи из файла.
-
-Поля:
-
-- `query` - запрос.
-- `clicks` - клики из Wordcraft.
-- `demand` - спрос из Wordcraft.
-- `sources` - из каких исходных файлов пришел запрос.
-- `decision` - пустое поле для нашего будущего решения.
-- `notes` - пустое поле для заметок.
-
-Текущий объем: 5 507 уникальных запросов.
-
-## Текущий принцип
-
-Главный принцип: структура от конкурентов, улучшения только по делу, семантика маппится на готовые слаги. Офферы заводим в админке один раз и показываем на нужных витринах через продукт, интенты, гео и условия. Не возвращаем старые бакеты, Wordcraft `cluster` и преждевременные реестры страниц.
+Материалы по ключам сейчас не ведём: для текущей работы достаточно структуры и исследования конкурентов.

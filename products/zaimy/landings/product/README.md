@@ -13,9 +13,8 @@
 Связанные файлы:
 
 - `products/zaimy/structure.md` - логика продукта, URL, масштабирование и ссылки на лендинги.
-- `ROADMAP.md` - верхний план, стратегия и конкуренты.
-- `data/competitor-loan-slugs.csv` - полный рыночный список найденных слагов.
-- `data/keywords.csv` - семантика для привязки к выбранным лендингам.
+- `products/zaimy/roadmap.md` - план работы, стратегия и конкуренты.
+- `products/zaimy/research/competitors/slugs.csv` - полный рыночный список найденных слагов.
 
 ## Роль страницы
 

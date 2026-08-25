@@ -19,16 +19,26 @@
 
 Файлы лендингов лежат в `products/zaimy/landings/`.
 
-Верхний план проекта: `ROADMAP.md`.
+План по продукту: `products/zaimy/roadmap.md`.
 
 ## Файлы лендингов
 
 | Лендинг | Файл | Статус |
 | --- | --- | --- |
-| `/zaimy/` | `products/zaimy/landings/product.md` | согласован |
-| `/zaimy/{intent}/` | `products/zaimy/landings/intent.md` | после MVP-ядра |
-| `/zaimy/{city}/` | `products/zaimy/landings/geo.md` | позже |
-| `/zaimy/{intent}/{city}/` | `products/zaimy/landings/intent-city.md` | позже |
+| `/zaimy/` | `products/zaimy/landings/product/README.md` | согласован |
+| `/zaimy/{intent}/` | `products/zaimy/landings/intent/README.md` | после MVP-ядра |
+| `/zaimy/{city}/` | `products/zaimy/landings/geo/README.md` | позже |
+| `/zaimy/{intent}/{city}/` | `products/zaimy/landings/intent-city/README.md` | позже |
+| `/companies/{slug}/` | `products/zaimy/landings/company/README.md` | в работе |
+
+Для карточки компании:
+
+- `products/zaimy/landings/company/README.md` — структура публичной страницы и бриф сбора данных под каждый блок;
+- `products/zaimy/source-packs/README.md` — правила источников и формат импорта;
+- `products/zaimy/source-packs/organizations/` — готовые файлы конкретных МФО для загрузки в AI.
+
+`README.md` в папке каждого типа лендинга — единственный актуальный документ. Папки `materials/` и `drafts/` добавляем только вместе с реальными материалами.
+
 
 ## Главный принцип
 
@@ -144,7 +154,7 @@ URL-подходы конкурентов:
 |-- /zaimy/grazhdanam-armenii/
 |-- /zaimy/grazhdanam-belarusi/
 |-- /zaimy/migrantam/
-`-- /zaimy/nerezidentam/ - кандидат-алиас к иностранным гражданам, проверяем по семантике
+`-- /zaimy/nerezidentam/ - кандидат-алиас к иностранным гражданам, проверяем по структуре конкурентов
 ```
 
 Для этих страниц потом отдельно продумываем требования и документы: миграционная карта, регистрация в РФ, РВП/ВНЖ, патент и документы конкретной страны.
@@ -238,12 +248,12 @@ URL-подходы конкурентов:
 
 В этом файле направления интентов не дублируем, чтобы схема продукта оставалась легкой.
 
-Сводка направлений лежит в `ROADMAP.md`, раздел `4.9. Направления лендингов`.
+Сводка направлений лежит в `products/zaimy/roadmap.md`, раздел `4.9. Направления лендингов`.
 
 Полный список найденных слагов лежит в:
 
 ```text
-data/competitor-loan-slugs.csv
+products/zaimy/research/competitors/slugs.csv
 ```
 
 Формат файла:
@@ -262,7 +272,7 @@ direction,intent,slug,competitors,urls,source_slugs
 Сырой список всех найденных URL остается здесь:
 
 ```text
-data/competitor-loan-urls.csv
+products/zaimy/research/competitors/urls.csv
 ```
 
 Список CSV - это не MVP, а инвентарь рынка для ручного выбора страниц.
@@ -283,4 +293,4 @@ data/competitor-loan-urls.csv
 
 ## Следующий шаг
 
-Дальше: собрать вертикальное MVP-ядро - главная, `/zaimy/`, админка офферов и витрина. После проверки этой связки наполняем `products/zaimy/landings/intent.md`, выбираем MVP-слаги из `data/competitor-loan-slugs.csv` и привязываем к ним запросы из `data/keywords.csv`.
+Дальше: собрать вертикальное MVP-ядро - главная, `/zaimy/`, админка офферов и витрина. После проверки этой связки наполняем `products/zaimy/landings/intent/README.md` и выбираем MVP-слаги из `products/zaimy/research/competitors/slugs.csv`.
