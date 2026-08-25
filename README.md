@@ -14,9 +14,13 @@ creditjoy/
       roadmap.md
       structure.md
 
-      admin/
-        README.md
-        assets/
+      changes/
+        admin/
+          README.md
+          assets/
+        design/
+          README.md
+          assets/
 
       research/
         competitors/
@@ -25,8 +29,6 @@ creditjoy/
       landings/
         product/
           README.md
-          design.md
-          assets/
         intent/
           README.md
         geo/
@@ -48,7 +50,7 @@ creditjoy/
 - `products/zaimy/landings/` - папки типов лендингов; `README.md` внутри каждой папки описывает структуру страницы.
 - `products/zaimy/landings/product/README.md` - согласованная структура продуктовой страницы `/zaimy/`.
 - `products/zaimy/landings/company/README.md` - каркас карточки МФО и данные, которые нужны для каждого блока.
-- `products/zaimy/admin/README.md` - функциональные правки админки для займов.
+- `products/zaimy/changes/` - правки админки и дизайна для займов.
 - `products/zaimy/research/competitors/slugs.csv` - инвентарь слагов, собранный у конкурентов.
 - `products/zaimy/research/competitors/urls.csv` - полный список найденных URL конкурентов.
 - `products/zaimy/source-packs/README.md` - правила источников и формирования файлов для импорта в админку.
