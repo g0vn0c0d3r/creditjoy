@@ -13,5 +13,5 @@
 Связанные файлы:
 
 - `products/zaimy/structure.md` - логика продукта, URL, масштабирование и ссылки на лендинги.
-- `products/zaimy/landings/product/README.md` - согласованная структура продуктовой страницы `/zaimy/`.
+- `products/zaimy/landings/product/final.md` - согласованная структура продуктовой страницы `/zaimy/`.
 - `products/zaimy/research/competitors/slugs.csv` - полный рыночный список найденных слагов.

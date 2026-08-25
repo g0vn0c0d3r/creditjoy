@@ -25,19 +25,19 @@
 
 | Лендинг | Файл | Статус |
 | --- | --- | --- |
-| `/zaimy/` | `products/zaimy/landings/product/README.md` | согласован |
-| `/zaimy/{intent}/` | `products/zaimy/landings/intent/README.md` | после MVP-ядра |
-| `/zaimy/{city}/` | `products/zaimy/landings/geo/README.md` | позже |
-| `/zaimy/{intent}/{city}/` | `products/zaimy/landings/intent-city/README.md` | позже |
-| `/companies/{slug}/` | `products/zaimy/landings/company/README.md` | в работе |
+| `/zaimy/` | `products/zaimy/landings/product/final.md` | согласован |
+| `/zaimy/{intent}/` | `products/zaimy/landings/intent/planned.md` | после MVP-ядра |
+| `/zaimy/{city}/` | `products/zaimy/landings/geo/planned.md` | позже |
+| `/zaimy/{intent}/{city}/` | `products/zaimy/landings/intent-city/planned.md` | позже |
+| `/companies/{slug}/` | `products/zaimy/landings/company/draft.md` | в работе |
 
 Для карточки компании:
 
-- `products/zaimy/landings/company/README.md` — структура публичной страницы и бриф сбора данных под каждый блок;
+- `products/zaimy/landings/company/draft.md` — рабочая структура публичной страницы и схема сбора данных под каждый блок;
 - `products/zaimy/landings/company/source-packs/README.md` — правила источников и формат импорта;
 - `products/zaimy/landings/company/source-packs/organizations/` — готовые файлы конкретных МФО для загрузки в AI.
 
-`README.md` в папке каждого типа лендинга — единственный актуальный документ. Папки `materials/` и `drafts/` добавляем только вместе с реальными материалами.
+Статус документа лендинга фиксируем именем `final.md`, `draft.md` или `planned.md`. Правила лежат в `products/zaimy/landings/README.md`.
 
 
 ## Главный принцип
@@ -293,4 +293,4 @@ products/zaimy/research/competitors/urls.csv
 
 ## Следующий шаг
 
-Дальше: собрать вертикальное MVP-ядро - главная, `/zaimy/`, админка офферов и витрина. После проверки этой связки наполняем `products/zaimy/landings/intent/README.md` и выбираем MVP-слаги из `products/zaimy/research/competitors/slugs.csv`.
+Дальше: собрать вертикальное MVP-ядро - главная, `/zaimy/`, админка офферов и витрина. После проверки этой связки превращаем `products/zaimy/landings/intent/planned.md` в рабочий `draft.md` и выбираем MVP-слаги из `products/zaimy/research/competitors/slugs.csv`.

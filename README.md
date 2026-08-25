@@ -31,17 +31,18 @@ creditjoy/
       landings/
         README.md
         product/
-          README.md
+          final.md
         intent/
-          README.md
+          planned.md
         geo/
-          README.md
+          planned.md
         intent-city/
-          README.md
+          planned.md
         company/
-          README.md
+          draft.md
           source-packs/
             README.md
+            template.md
             organizations/
 ```
 
@@ -50,9 +51,9 @@ creditjoy/
 - `products/zaimy/README.md` - вход в текущий продукт и навигация по его материалам.
 - `products/zaimy/roadmap.md` - план работы по продукту и выводы из исследования рынка.
 - `products/zaimy/structure.md` - схема продукта `займы`: URL, масштабирование, интенты, гео, ссылки на лендинги и рыночный инвентарь.
-- `products/zaimy/landings/` - папки типов лендингов; `README.md` внутри каждой папки описывает структуру страницы.
-- `products/zaimy/landings/product/README.md` - согласованная структура продуктовой страницы `/zaimy/`.
-- `products/zaimy/landings/company/README.md` - каркас карточки МФО и данные, которые нужны для каждого блока.
+- `products/zaimy/landings/README.md` - правила статусов и хранения материалов лендингов.
+- `products/zaimy/landings/product/final.md` - согласованная структура продуктовой страницы `/zaimy/`.
+- `products/zaimy/landings/company/draft.md` - рабочий набросок карточки МФО и схема данных.
 - `products/zaimy/changes/README.md` - правила классификации правок админки и дизайна.
 - `products/zaimy/research/competitors/slugs.csv` - инвентарь слагов, собранный у конкурентов.
 - `products/zaimy/research/competitors/urls.csv` - полный список найденных URL конкурентов.
