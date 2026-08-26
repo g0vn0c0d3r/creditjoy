@@ -43,10 +43,9 @@ creditjoy/
           source-packs/
             README.md
             template.md
-            examples/
-              lime-zaim.md
             organizations/
               <organization-slug>.md
+              <organization-slug>-final.md
 ```
 
 ## Главные файлы
