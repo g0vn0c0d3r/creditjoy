@@ -29,13 +29,14 @@
 | `/zaimy/{intent}/` | `products/zaimy/landings/intent/planned.md` | после MVP-ядра |
 | `/zaimy/{city}/` | `products/zaimy/landings/geo/planned.md` | позже |
 | `/zaimy/{intent}/{city}/` | `products/zaimy/landings/intent-city/planned.md` | позже |
-| `/companies/{slug}/` | `products/zaimy/landings/company/draft.md` | в работе |
+| `/companies/{slug}/` | `products/zaimy/landings/company/final.md` | согласован для пилотного сбора |
 
 Для карточки компании:
 
-- `products/zaimy/landings/company/draft.md` — рабочая структура публичной страницы и схема сбора данных под каждый блок;
-- `products/zaimy/landings/company/source-packs/README.md` — правила источников и формат импорта;
-- `products/zaimy/landings/company/source-packs/organizations/` — место для файлов конкретных МФО после утверждения шаблона.
+- `products/zaimy/landings/company/final.md` — утверждённая спецификация публичной страницы, контракт данных и промпты подготовки source pack;
+- `products/zaimy/landings/company/source-packs/template.md` — каноническая структура файла организации;
+- `products/zaimy/landings/company/source-packs/examples/lime-zaim.md` — эталон полностью собранного source pack;
+- `products/zaimy/landings/company/source-packs/organizations/` — файлы конкретных МФО с именами по слагам брендов.
 
 Статус документа лендинга фиксируем именем `final.md`, `draft.md` или `planned.md`. Правила лежат в `products/zaimy/landings/README.md`.
 

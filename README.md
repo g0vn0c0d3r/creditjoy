@@ -39,10 +39,14 @@ creditjoy/
         intent-city/
           planned.md
         company/
-          draft.md
+          final.md
           source-packs/
             README.md
+            template.md
+            examples/
+              lime-zaim.md
             organizations/
+              <organization-slug>.md
 ```
 
 ## Главные файлы
@@ -52,10 +56,10 @@ creditjoy/
 - `products/zaimy/structure.md` - схема продукта `займы`: URL, масштабирование, интенты, гео, ссылки на лендинги и рыночный инвентарь.
 - `products/zaimy/landings/README.md` - правила статусов и хранения материалов лендингов.
 - `products/zaimy/landings/product/final.md` - согласованная структура продуктовой страницы `/zaimy/`.
-- `products/zaimy/landings/company/draft.md` - рабочий набросок карточки МФО и схема данных.
+- `products/zaimy/landings/company/final.md` - утверждённая спецификация карточки МФО, контракт данных и промпты подготовки source pack.
 - `products/zaimy/changes/README.md` - правила классификации правок админки и дизайна.
 - `products/zaimy/research/competitors/slugs.csv` - инвентарь слагов, собранный у конкурентов.
 - `products/zaimy/research/competitors/urls.csv` - полный список найденных URL конкурентов.
-- `products/zaimy/landings/company/source-packs/README.md` - правила источников и формирования файлов для импорта в админку.
+- `products/zaimy/landings/company/source-packs/README.md` - навигация по шаблону, эталонному примеру и файлам организаций.
 
 Материалы по ключам сейчас не ведём: для текущей работы достаточно структуры и исследования конкурентов.
