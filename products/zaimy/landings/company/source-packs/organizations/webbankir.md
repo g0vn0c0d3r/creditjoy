@@ -14,6 +14,24 @@
 
 WEBBANKIR — онлайн-сервис ООО МФК «ВЭББАНКИР», работающий через сайт и мобильное приложение. Компания выдаёт нецелевые займы с перечислением через СБП или на карту, а также целевые займы с оплатой товара или услуги продавцу. График погашения зависит от вида займа, а для краткосрочного нецелевого займа предусмотрено продление после уплаты начисленных процентов. При подтверждённых основаниях клиент может обратиться за реструктуризацией или кредитными каникулами.
 
+## Отзывы о компании «WEBBANKIR»
+
+**Общая тональность:** Положительная
+
+**Проанализировано:** 100 отзывов
+
+### Клиенты чаще хвалят
+
+- Клиенты часто описывают быстрое рассмотрение заявки и зачисление денег: по их опыту, решение и перевод обычно занимают несколько минут.
+- В отзывах отмечают удобство онлайн-оформления: понятную навигацию на сайте и в приложении, доступ к договору и сведениям о платеже через личный кабинет.
+- Пользователи положительно оценивают работу поддержки при вопросах о погашении, продлении, досрочном возврате и доступе к личному кабинету.
+
+### Клиенты чаще жалуются
+
+- Часть клиентов недовольна комиссией при отдельных быстрых способах погашения; бесплатный вариант приходится выбирать заранее, поскольку зачисление может занять больше времени.
+
+> Обзор подготовлен на основе отзывов клиентов, опубликованных в открытых источниках.
+
 ## Условия займов
 
 | Данные | Значение |
@@ -130,3 +148,4 @@ WEBBANKIR — онлайн-сервис ООО МФК «ВЭББАНКИР», р
 | ФНС / ЕГРЮЛ | • Сервис проверки: https://egrul.nalog.ru/<br>• Выписка от 26.08.2026 № ЮЭ9965-26-163433217 |
 | Официальные страницы | • Главная страница: https://webbankir.ru/<br>• О компании: https://webbankir.ru/about<br>• Контакты: https://webbankir.ru/contacts<br>• Документы: https://webbankir.ru/documents<br>• Частые вопросы: https://webbankir.ru/faq<br>• Страхование: https://webbankir.ru/insurance |
 | Официальные документы | • Информация об условиях предоставления, использования и возврата нецелевого потребительского микрозайма: https://static.webbankir.ru/public/docs/rules.pdf<br>• Информация об условиях предоставления, использования и возврата нецелевого потребительского займа: https://static.webbankir.ru/public/docs/rules_ils.pdf<br>• Информация об условиях предоставления, использования и возврата потребительского POS-микрозайма: https://static.webbankir.ru/public/docs/rules_pos.pdf<br>• Правила предоставления и сопровождения нецелевых потребительских микрозаймов: https://static.webbankir.ru/public/docs/regulations.pdf<br>• Правила предоставления и сопровождения нецелевых потребительских займов: https://static.webbankir.ru/public/docs/regulations_ils.pdf<br>• Правила предоставления и сопровождения POS-микрозаймов: https://static.webbankir.ru/public/docs/regulations_pos.pdf<br>• Правила акции «Первичный заём на срок не более 30 дней под 0%»: https://static.webbankir.ru/public/docs/promo/initial_loan_30_days_0_percent_last.pdf<br>• Информация о реструктуризации задолженности: https://static.webbankir.ru/public/docs/information_debt_restructuring.pdf<br>• Информация о кредитных каникулах: https://static.webbankir.ru/public/docs/credit_holidays_and_restructuring.pdf<br>• Ключевой информационный документ по страхованию «Защита карт»: https://static.webbankir.ru/public/docs/insurance/insurance_rgs_key_information_document.pdf<br>• Ключевой информационный документ по страхованию от потери работы: https://static.webbankir.ru/public/docs/insurance/insurance_euroins_key_information_document.pdf<br>• Инструкция по возврату денег за дополнительные продукты и страхование: https://static.webbankir.ru/public/docs/insurance/insurance_refunding_money_instructions.pdf<br>• Оферта по ПЭВМ «Электронный доктор»: https://static.webbankir.ru/public/docs/offer_to_conclude_a_sublicense_agreement.pdf<br>• Оферта по ПЭВМ «ИИ-агент для анализа медицинских опросников» от 31.03.2026: https://static.webbankir.ru/public/docs/sublicense_agreement_zdravotech_31032026.pdf<br>• Реестр членов СРО «МиР» от 18.08.2026: https://npmir.ru/upload/main/716/rwbhc91j4ua26kjkkmrajmmx879lsfw6/Reestr_chlenov_4004_U_2026_8_18_21_45_32.xlsx |
+| Отзывы | • Дата анализа — 26.08.2026<br>• Проанализировано — 100 отзывов<br>• Банки.ру — https://www.banki.ru/microloans/responses/companies/webbankir/<br>• Сравни — https://www.sravni.ru/zaimy/mfo/webbankir/otzyvy/?orderBy=byDate |
