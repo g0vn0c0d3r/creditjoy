@@ -34,6 +34,7 @@
 Для карточки компании:
 
 - `products/zaimy/landings/company/final.md` — утверждённая спецификация публичной страницы, контракт данных и промпты подготовки source pack;
+- `products/zaimy/landings/company/source-packs/collection-prompt.md` — обезличенный промпт запуска сбора новой организации;
 - `products/zaimy/landings/company/source-packs/template.md` — каноническая структура файла организации;
 - `products/zaimy/landings/company/source-packs/organizations/lime-zaim-final.md` — эталон полностью собранного source pack;
 - `products/zaimy/landings/company/source-packs/organizations/` — рабочие файлы конкретных МФО по слагам брендов; суффикс `-final` отмечает полностью готовый результат.
