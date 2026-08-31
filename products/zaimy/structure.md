@@ -2,7 +2,7 @@
 
 Статус: рабочая схема продукта, URL-структуры и масштабирования. Это не реестр страниц и не список MVP-слагов.
 
-Дата: 2026-08-12.
+Дата: 2026-09-01.
 
 ## Зачем файл
 
@@ -29,14 +29,14 @@
 | `/zaimy/{intent}/` | `products/zaimy/landings/intent/planned.md` | после MVP-ядра |
 | `/zaimy/{city}/` | `products/zaimy/landings/geo/planned.md` | позже |
 | `/zaimy/{intent}/{city}/` | `products/zaimy/landings/intent-city/planned.md` | позже |
-| `/companies/{slug}/` | `products/zaimy/landings/company/final.md` | согласован для пилотного сбора |
+| `/companies/{slug}/` | `products/zaimy/landings/company/final.md` | согласован |
 
 Для карточки компании:
 
 - `products/zaimy/landings/company/final.md` — утверждённая спецификация публичной страницы, контракт данных и промпты подготовки source pack;
 - `products/zaimy/landings/company/source-packs/collection-prompt.md` — обезличенный промпт запуска сбора новой организации;
 - `products/zaimy/landings/company/source-packs/template.md` — каноническая структура файла организации;
-- `products/zaimy/landings/company/source-packs/organizations/lime-zaim-final.md` — эталон полностью собранного source pack;
+- `products/zaimy/landings/company/source-packs/organizations/lime-zaim-final.md`, `webbankir-final.md` и `moneyman-final.md` — одобренные примеры для финальной структурной и редакционной сверки;
 - `products/zaimy/landings/company/source-packs/organizations/` — рабочие файлы конкретных МФО по слагам брендов; суффикс `-final` отмечает полностью готовый результат.
 
 Статус документа лендинга фиксируем именем `final.md`, `draft.md` или `planned.md`. Правила лежат в `products/zaimy/landings/README.md`.
