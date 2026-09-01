@@ -54,6 +54,7 @@ creditjoy/
 - `products/zaimy/README.md` - вход в текущий продукт и навигация по его материалам.
 - `products/zaimy/roadmap.md` - план работы по продукту и выводы из исследования рынка.
 - `products/zaimy/structure.md` - схема продукта `займы`: URL, масштабирование, интенты, гео, ссылки на лендинги и рыночный инвентарь.
+- `products/zaimy/editorial-policy.md` - общая редакционная политика: источники, проверка фактов, анализ отзывов, актуальность, рейтинги и партнёрские размещения.
 - `products/zaimy/landings/README.md` - правила статусов и хранения материалов лендингов.
 - `products/zaimy/landings/product/final.md` - согласованная структура продуктовой страницы `/zaimy/`.
 - `products/zaimy/landings/company/final.md` - утверждённая спецификация карточки МФО, контракт данных и промпты подготовки source pack.
