@@ -62,6 +62,6 @@ creditjoy/
 - `products/zaimy/changes/README.md` - правила классификации правок админки и дизайна.
 - `products/zaimy/research/competitors/slugs.csv` - инвентарь слагов, собранный у конкурентов.
 - `products/zaimy/research/competitors/urls.csv` - полный список найденных URL конкурентов.
-- `products/zaimy/landings/company/source-packs/README.md` - навигация по шаблону, эталонному примеру и файлам организаций.
+- `products/zaimy/landings/company/source-packs/README.md` - навигация по шаблону, одобренным примерам и файлам организаций.
 
 Материалы по ключам сейчас не ведём: для текущей работы достаточно структуры и исследования конкурентов.
