@@ -23,6 +23,9 @@ creditjoy/
           product/
             tasks.md
             assets/
+          company/
+            tasks.md
+            assets/
 
       research/
         competitors/
@@ -59,6 +62,7 @@ creditjoy/
 - `products/zaimy/landings/product/final.md` - согласованная структура продуктовой страницы `/zaimy/`.
 - `products/zaimy/landings/company/final.md` - утверждённая спецификация карточки МФО, контракт данных и промпты подготовки source pack.
 - `products/zaimy/landings/company/source-packs/collection-prompt.md` - обезличенный промпт запуска сбора новой организации.
+- [Визуальные правки карточки МФО](products/zaimy/changes/design/company/tasks.md) — задачи и скриншоты Webbankir и «Лайм-Займ».
 - `products/zaimy/changes/README.md` - правила классификации правок админки и дизайна.
 - `products/zaimy/research/competitors/slugs.csv` - инвентарь слагов, собранный у конкурентов.
 - `products/zaimy/research/competitors/urls.csv` - полный список найденных URL конкурентов.
