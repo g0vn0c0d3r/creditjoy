@@ -103,25 +103,17 @@
 
 **Пример — Webbankir**
 
-<table width="100%">
-<tr>
-<td width="25%" valign="top">Сумма, руб<br><strong>1 000–50 000</strong></td>
-<td width="25%" valign="top">Срок, дней<br><strong>7–180</strong></td>
-<td width="25%" valign="top">Ставка, % в день<br><strong>0–0,8</strong></td>
-<td width="25%" valign="top">ПСК, % годовых<br><strong>0–292</strong></td>
-</tr>
-</table>
+```text
+Сумма, руб        Срок, дней     Ставка, % в день     ПСК, % годовых
+1 000–50 000      7–180          0–0,8                0–292
+```
 
 **Пример — Лайм-Займ**
 
-<table width="100%">
-<tr>
-<td width="25%" valign="top">Сумма, руб<br><strong>3 000–100 000</strong></td>
-<td width="25%" valign="top">Срок, дней<br><strong>10–364</strong></td>
-<td width="25%" valign="top">Ставка, % в день<br><strong>0–0,8</strong></td>
-<td width="25%" valign="top">ПСК, % годовых<br><strong>29–292</strong></td>
-</tr>
-</table>
+```text
+Сумма, руб        Срок, дней     Ставка, % в день     ПСК, % годовых
+3 000–100 000     10–364         0–0,8                29–292
+```
 
 ### Телефон (360 px)
 
@@ -137,29 +129,23 @@
 
 **Пример — Webbankir**
 
-<table width="360">
-<tr>
-<td width="50%" valign="top">Сумма, руб<br><strong>1 000–50 000</strong></td>
-<td width="50%" valign="top">Срок, дней<br><strong>7–180</strong></td>
-</tr>
-<tr>
-<td width="50%" valign="top">Ставка, % в день<br><strong>0–0,8</strong></td>
-<td width="50%" valign="top">ПСК, % годовых<br><strong>0–292</strong></td>
-</tr>
-</table>
+```text
+Сумма, руб           Срок, дней
+1 000–50 000         7–180
+
+Ставка, % в день     ПСК, % годовых
+0–0,8                0–292
+```
 
 **Пример — Лайм-Займ**
 
-<table width="360">
-<tr>
-<td width="50%" valign="top">Сумма, руб<br><strong>3 000–100 000</strong></td>
-<td width="50%" valign="top">Срок, дней<br><strong>10–364</strong></td>
-</tr>
-<tr>
-<td width="50%" valign="top">Ставка, % в день<br><strong>0–0,8</strong></td>
-<td width="50%" valign="top">ПСК, % годовых<br><strong>29–292</strong></td>
-</tr>
-</table>
+```text
+Сумма, руб           Срок, дней
+3 000–100 000        10–364
+
+Ставка, % в день     ПСК, % годовых
+0–0,8                29–292
+```
 
 ## 03. Убрать боковой блок «Предложение»
 
