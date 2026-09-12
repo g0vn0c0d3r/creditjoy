@@ -326,16 +326,16 @@
 <table width="100%">
 <tbody>
 <tr>
-<td width="33%" valign="top">Сумма, руб<br><strong>1 000–50 000</strong></td>
-<td width="33%" valign="top">Срок, дней<br><strong>7–180</strong></td>
-<td width="33%" valign="top">Ставка, % в день<br><strong>0–0,8</strong></td>
+<td width="33%" valign="top">Сумма,&nbsp;руб<br><strong>1&nbsp;000–50&nbsp;000</strong></td>
+<td width="33%" valign="top">Срок,&nbsp;дней<br><strong>7–180</strong></td>
+<td width="33%" valign="top">Ставка,&nbsp;%&nbsp;в&nbsp;день<br><strong>0–0,8</strong></td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td width="33%" valign="top">ПСК, % годовых<br><strong>0–292</strong></td>
-<td width="33%" valign="top">Первый заём под 0%<br><strong>Да</strong></td>
-<td width="33%" valign="top">Досрочное погашение<br><strong>Да</strong></td>
+<td width="33%" valign="top">ПСК,&nbsp;%&nbsp;годовых<br><strong>0–292</strong></td>
+<td width="33%" valign="top">Первый&nbsp;заём&nbsp;под&nbsp;0%<br><strong>Да</strong></td>
+<td width="33%" valign="top">Досрочное&nbsp;погашение<br><strong>Да</strong></td>
 </tr>
 </tbody>
 </table>
@@ -359,16 +359,16 @@
 <table width="100%">
 <tbody>
 <tr>
-<td width="33%" valign="top">Сумма, руб<br><strong>3 000–100 000</strong></td>
-<td width="33%" valign="top">Срок, дней<br><strong>10–364</strong></td>
-<td width="33%" valign="top">Ставка, % в день<br><strong>0–0,8</strong></td>
+<td width="33%" valign="top">Сумма,&nbsp;руб<br><strong>3&nbsp;000–100&nbsp;000</strong></td>
+<td width="33%" valign="top">Срок,&nbsp;дней<br><strong>10–364</strong></td>
+<td width="33%" valign="top">Ставка,&nbsp;%&nbsp;в&nbsp;день<br><strong>0–0,8</strong></td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td width="33%" valign="top">ПСК, % годовых<br><strong>29–292</strong></td>
-<td width="33%" valign="top">Первый заём под 0%<br><strong>Да</strong></td>
-<td width="33%" valign="top">Досрочное погашение<br><strong>Да</strong></td>
+<td width="33%" valign="top">ПСК,&nbsp;%&nbsp;годовых<br><strong>29–292</strong></td>
+<td width="33%" valign="top">Первый&nbsp;заём&nbsp;под&nbsp;0%<br><strong>Да</strong></td>
+<td width="33%" valign="top">Досрочное&nbsp;погашение<br><strong>Да</strong></td>
 </tr>
 </tbody>
 </table>
@@ -415,20 +415,20 @@
 <table width="100%">
 <tbody>
 <tr>
-<td width="50%" valign="top">Сумма, руб<br><strong>1 000–50 000</strong></td>
-<td width="50%" valign="top">Срок, дней<br><strong>7–180</strong></td>
+<td width="50%" valign="top">Сумма,&nbsp;руб<br><strong>1&nbsp;000–50&nbsp;000</strong></td>
+<td width="50%" valign="top">Срок,&nbsp;дней<br><strong>7–180</strong></td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td width="50%" valign="top">Ставка, % в день<br><strong>0–0,8</strong></td>
-<td width="50%" valign="top">ПСК, % годовых<br><strong>0–292</strong></td>
+<td width="50%" valign="top">Ставка,&nbsp;%&nbsp;в&nbsp;день<br><strong>0–0,8</strong></td>
+<td width="50%" valign="top">ПСК,&nbsp;%&nbsp;годовых<br><strong>0–292</strong></td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td width="50%" valign="top">Первый заём под 0%<br><strong>Да</strong></td>
-<td width="50%" valign="top">Досрочное погашение<br><strong>Да</strong></td>
+<td width="50%" valign="top">Первый&nbsp;заём&nbsp;под&nbsp;0%<br><strong>Да</strong></td>
+<td width="50%" valign="top">Досрочное&nbsp;погашение<br><strong>Да</strong></td>
 </tr>
 </tbody>
 </table>
@@ -446,20 +446,20 @@
 <table width="100%">
 <tbody>
 <tr>
-<td width="50%" valign="top">Сумма, руб<br><strong>3 000–100 000</strong></td>
-<td width="50%" valign="top">Срок, дней<br><strong>10–364</strong></td>
+<td width="50%" valign="top">Сумма,&nbsp;руб<br><strong>3&nbsp;000–100&nbsp;000</strong></td>
+<td width="50%" valign="top">Срок,&nbsp;дней<br><strong>10–364</strong></td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td width="50%" valign="top">Ставка, % в день<br><strong>0–0,8</strong></td>
-<td width="50%" valign="top">ПСК, % годовых<br><strong>29–292</strong></td>
+<td width="50%" valign="top">Ставка,&nbsp;%&nbsp;в&nbsp;день<br><strong>0–0,8</strong></td>
+<td width="50%" valign="top">ПСК,&nbsp;%&nbsp;годовых<br><strong>29–292</strong></td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td width="50%" valign="top">Первый заём под 0%<br><strong>Да</strong></td>
-<td width="50%" valign="top">Досрочное погашение<br><strong>Да</strong></td>
+<td width="50%" valign="top">Первый&nbsp;заём&nbsp;под&nbsp;0%<br><strong>Да</strong></td>
+<td width="50%" valign="top">Досрочное&nbsp;погашение<br><strong>Да</strong></td>
 </tr>
 </tbody>
 </table>
